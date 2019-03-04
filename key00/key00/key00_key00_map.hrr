@@ -1,0 +1,40 @@
+---------------------------------------------------
+Report for cell topkey00
+   Instance path: topkey00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      34.00        100.0
+                                  LUT4	      46.00        100.0
+                                 IOBUF	         18        100.0
+                                PFUREG	         22        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                              topdiv00	          1        97.1
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topkey00/KE00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.00        97.1
+                                  LUT4	      44.00        95.7
+                                PFUREG	         22        100.0
+                                RIPPLE	         11        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 div00	          1        97.1
+                                 osc00	          1         0.0
+---------------------------------------------------
+Report for cell div00
+   Instance path: topkey00/KE00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      33.00        97.1
+                                  LUT4	      44.00        95.7
+                                PFUREG	         22        100.0
+                                RIPPLE	         11        100.0
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topkey00/KE00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

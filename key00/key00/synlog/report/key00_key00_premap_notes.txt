@@ -1,0 +1,4 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: BN115 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\key00\topkey00.vhd":27:1:27:4|Removing instance KE01 (in view: work.topkey00(topkey0)) of type view:work.contring00(contring0) because it does not drive other instances.
+@N: BN362 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\key00\coder00.vhdl":21:2:21:3|Removing sequential instance aux (in view: work.coder00(coder0)) of type view:PrimLib.dffr(prim) because it does not drive other instances.

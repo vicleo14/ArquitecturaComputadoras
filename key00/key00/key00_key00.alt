@@ -1,0 +1,26 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Mon Mar 04 17:39:46 2019 *
+NOTE DESIGN NAME: topkey00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outr0[0] : 89 : out *
+NOTE PINS cdiv[0] : 121 : in *
+NOTE PINS outcoder0[7] : 92 : out *
+NOTE PINS outcoder0[6] : 84 : out *
+NOTE PINS outcoder0[5] : 85 : out *
+NOTE PINS outcoder0[4] : 94 : out *
+NOTE PINS outcoder0[3] : 87 : out *
+NOTE PINS outcoder0[2] : 81 : out *
+NOTE PINS outcoder0[1] : 83 : out *
+NOTE PINS outcoder0[0] : 91 : out *
+NOTE PINS clk00 : 127 : out *
+NOTE PINS outr0[3] : 82 : out *
+NOTE PINS outr0[2] : 93 : out *
+NOTE PINS outr0[1] : 86 : out *
+NOTE PINS cdiv[4] : 122 : in *
+NOTE PINS cdiv[3] : 128 : in *
+NOTE PINS cdiv[2] : 126 : in *
+NOTE PINS cdiv[1] : 125 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *
