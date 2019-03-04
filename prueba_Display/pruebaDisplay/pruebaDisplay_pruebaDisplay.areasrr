@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Report for cell pruebaDisplay.pd
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       8
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 OB        8       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            12           

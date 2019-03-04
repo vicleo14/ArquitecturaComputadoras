@@ -1,0 +1,178 @@
+----------------------------------------------------------------------
+Report for cell topshiftRL00.topshiftrl0
+
+Register bits: 166 of 6864 (2%)
+PIC Latch:       0
+I/O cells:       30
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       23       100.0
+                            FD1P3AX       64       100.0
+                            FD1P3IX       80       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                                GSR        1       100.0
+                                 IB       21       100.0
+                                INV        1       100.0
+                            L6MUX21        8       100.0
+                                 OB        9       100.0
+                           ORCALUT4      171       100.0
+                               OSCH        1       100.0
+                              PFUMX       16       100.0
+                                PUR        1       100.0
+                                VHI       12       100.0
+                                VLO       12       100.0
+SUB MODULES 
+                          barrelDer        1       100.0
+                          barrelIzq        1       100.0
+                         barrelrDer        1       100.0
+                         barrelrIzq        1       100.0
+                              div00        1       100.0
+                              osc00        1       100.0
+                          shiftRD00        1       100.0
+                          shiftRL00        1       100.0
+                           topdiv00        1       100.0
+                        toprotDer00        1       100.0
+                          toprotIzq        1       100.0
+                            
+                         TOTAL           453           
+----------------------------------------------------------------------
+Report for cell barrelrDer.netlist
+     Instance path:  SRL08
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        13.0
+                            FD1P3AX        8        12.5
+                            FD1P3IX       12        15.0
+                           ORCALUT4       15         8.8
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            40           
+----------------------------------------------------------------------
+Report for cell barrelrIzq.netlist
+     Instance path:  SRL07
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        13.0
+                            FD1P3AX        8        12.5
+                            FD1P3IX       12        15.0
+                           ORCALUT4       15         8.8
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            40           
+----------------------------------------------------------------------
+Report for cell barrelDer.netlist
+     Instance path:  SRL06
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        13.0
+                            FD1P3AX        8        12.5
+                            FD1P3IX       12        15.0
+                           ORCALUT4       14         8.2
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            39           
+----------------------------------------------------------------------
+Report for cell barrelIzq.netlist
+     Instance path:  SRL05
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        13.0
+                            FD1P3AX        8        12.5
+                            FD1P3IX       12        15.0
+                           ORCALUT4       14         8.2
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            39           
+----------------------------------------------------------------------
+Report for cell toprotDer00.netlist
+     Instance path:  SRL04
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        8        12.5
+                            FD1P3IX        8        10.0
+                           ORCALUT4        8         4.7
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            26           
+----------------------------------------------------------------------
+Report for cell toprotIzq.netlist
+     Instance path:  SRL03
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        8        12.5
+                            FD1P3IX        8        10.0
+                           ORCALUT4        8         4.7
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            26           
+----------------------------------------------------------------------
+Report for cell shiftRD00.netlist
+     Instance path:  SRL02
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        8        12.5
+                            FD1P3IX        8        10.0
+                           ORCALUT4        8         4.7
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            26           
+----------------------------------------------------------------------
+Report for cell shiftRL00.netlist
+     Instance path:  SRL01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3AX        8        12.5
+                            FD1P3IX        8        10.0
+                           ORCALUT4        8         4.7
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            26           
+----------------------------------------------------------------------
+Report for cell topdiv00.netlist
+     Instance path:  SRL00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        47.8
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       47        27.5
+                               OSCH        1       100.0
+                                VHI        3        25.0
+                                VLO        3        25.0
+SUB MODULES 
+                              div00        1       100.0
+                              osc00        1       100.0
+                            
+                         TOTAL            89           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  SRL00.OS01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       11        47.8
+                            FD1S3AX        1       100.0
+                            FD1S3IX       21       100.0
+                           ORCALUT4       47        27.5
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL            82           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  SRL00.OS00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VHI        1         8.3
+                                VLO        1         8.3
+                            
+                         TOTAL             3           

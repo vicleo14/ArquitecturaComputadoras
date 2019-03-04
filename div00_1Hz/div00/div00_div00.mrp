@@ -1,0 +1,204 @@
+
+           Lattice Mapping Report File for Design Module 'topdiv00'
+
+
+Design Information
+------------------
+
+Command line:   map -a MachXO2 -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial
+     div00_div00.ngd -o div00_div00_map.ncd -pr div00_div00.prf -mp
+     div00_div00.mrp -lpf D:/Sexto_Semestre/Arquitectura_Computadora/projectMach
+     XO2/div00_1Hz/div00/div00_div00_synplify.lpf -lpf D:/Sexto_Semestre/Arquite
+     ctura_Computadora/projectMachXO2/div00_1Hz/div00.lpf -c 0 -gui -msgset D:/S
+     exto_Semestre/Arquitectura_Computadora/projectMachXO2/div00_1Hz/promote.xml
+     
+Target Vendor:  LATTICE
+Target Device:  LCMXO2-7000HETQFP144
+Target Performance:   5
+Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
+Mapped on:  02/22/19  04:52:25
+
+Design Summary
+--------------
+
+   Number of registers:     22 out of  7209 (0%)
+      PFU registers:           22 out of  6864 (0%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:        17 out of  3432 (0%)
+      SLICEs as Logic/ROM:     17 out of  3432 (0%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:         33 out of  6864 (0%)
+      Number used as logic LUTs:         11
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 1 + 4(JTAG) out of 115 (4%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of
+     distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and
+     ripple logic.
+   Number of clocks:  1
+     Net sclk: 13 loads, 13 rising, 0 falling (Driver: OS00/OSCInst0 )
+
+                                    Page 1
+
+
+
+
+Design:  topdiv00                                      Date:  02/22/19  04:52:25
+
+Design Summary (cont)
+---------------------
+   Number of Clock Enables:  0
+   Number of LSRs:  0
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net OS01/sdiv8: 3 loads
+     Net OS01/sdiv[0]: 3 loads
+     Net clk0_c: 2 loads
+     Net OS01/sdiv[13]: 2 loads
+     Net OS01/sdiv[14]: 2 loads
+     Net OS01/sdiv[15]: 2 loads
+     Net OS01/sdiv[1]: 2 loads
+     Net OS01/sdiv[2]: 2 loads
+     Net OS01/sdiv[3]: 2 loads
+     Net OS01/sdiv[4]: 2 loads
+
+
+
+
+   Number of warnings:  5
+   Number of errors:    0
+     
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00_1
+     Hz/div00.lpf(4): Semantic error in "LOCATE COMP "cdiv0[4]" SITE "67" ;":
+     COMP "cdiv0[4]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00_1
+     Hz/div00.lpf(5): Semantic error in "LOCATE COMP "cdiv0[3]" SITE "68" ;":
+     COMP "cdiv0[3]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00_1
+     Hz/div00.lpf(6): Semantic error in "LOCATE COMP "cdiv0[2]" SITE "70" ;":
+     COMP "cdiv0[2]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00_1
+     Hz/div00.lpf(7): Semantic error in "LOCATE COMP "cdiv0[1]" SITE "69" ;":
+     COMP "cdiv0[1]" cannot be found in design. This preference has been
+     disabled.
+WARNING - map: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00_1
+     Hz/div00.lpf(8): Semantic error in "LOCATE COMP "cdiv0[0]" SITE "71" ;":
+     COMP "cdiv0[0]" cannot be found in design. This preference has been
+     disabled.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+------------+
+| IO Name             | Direction | Levelmode | IO         |
+|                     |           |  IO_TYPE  | Register   |
++---------------------+-----------+-----------+------------+
+| clk0                | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+
+
+                                    Page 2
+
+
+
+
+Design:  topdiv00                                      Date:  02/22/19  04:52:25
+
+Removed logic
+-------------
+
+Block VCC_0 undriven or does not drive anything - clipped.
+Block GSR_INST undriven or does not drive anything - clipped.
+Block GND_0 undriven or does not drive anything - clipped.
+Block OS00/VCC undriven or does not drive anything - clipped.
+Signal OS00/GND undriven or does not drive anything - clipped.
+Signal OS01/GND undriven or does not drive anything - clipped.
+Signal VCC undriven or does not drive anything - clipped.
+Signal OS00/OSCInst0_SEDSTDBY undriven or does not drive anything - clipped.
+Signal OS01/un3_sdiv_cry_19_0_COUT undriven or does not drive anything -
+     clipped.
+Signal OS01/un3_sdiv_cry_0_0_S1 undriven or does not drive anything - clipped.
+Signal OS01/un3_sdiv_cry_0_0_S0 undriven or does not drive anything - clipped.
+Signal OS01/N_1 undriven or does not drive anything - clipped.
+Block OS00/GND_0 was optimized away.
+Block OS01/GND_0 was optimized away.
+
+Memory Usage
+------------
+
+
+     
+
+OSC Summary
+-----------
+
+OSC 1:                                     Pin/Node Value
+  OSC Instance Name:                                OS00/OSCInst0
+  OSC Type:                                         OSCH
+  STDBY Input:                                      NONE
+  OSC Output:                              NODE     sclk
+  OSC Nominal Frequency (MHz):                      2.08
+
+ASIC Components
+---------------
+
+Instance Name: OS00/OSCInst0
+         Type: OSCH
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 0 secs  
+   Total REAL Time: 0 secs  
+   Peak Memory Usage: 56 MB
+        
+
+
+
+
+
+
+
+
+
+
+
+                                    Page 3
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+     Copyright (c) 1995 AT&T Corp.   All rights reserved.
+     Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+     Copyright (c) 2001 Agere Systems   All rights reserved.
+     Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights
+     reserved.

@@ -1,0 +1,5 @@
+-rem
+-distrce
+-log "pruebaDisplay_pruebaDisplay.log"
+-o "pruebaDisplay_pruebaDisplay.csv"
+-pr "pruebaDisplay_pruebaDisplay.prf"

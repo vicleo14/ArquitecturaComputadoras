@@ -1,0 +1,31 @@
+----------------------------------------------------------------------
+Report for cell compuertas00.compuertas0
+
+Register bits: 0 of 6864 (0%)
+PIC Latch:       0
+I/O cells:       27
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GSR        1       100.0
+                                 IB       19       100.0
+                                 OB        8       100.0
+                           ORCALUT4       16       100.0
+                              PFUMX        8       100.0
+                                PUR        1       100.0
+                                VHI        2       100.0
+                                VLO        2       100.0
+SUB MODULES 
+                            mux8vhd        1       100.0
+                            
+                         TOTAL            58           
+----------------------------------------------------------------------
+Report for cell mux8vhd.netlist
+     Instance path:  CO07
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                           ORCALUT4       16       100.0
+                              PFUMX        8       100.0
+                                VHI        1        50.0
+                                VLO        1        50.0
+                            
+                         TOTAL            26           

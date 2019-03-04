@@ -1,0 +1,116 @@
+---------------------------------------------------
+Report for cell topshiftRL00
+   Instance path: topshiftRL00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	     109.00        100.0
+                                  LUT4	     172.00        100.0
+                                 IOBUF	         30        100.0
+                                PFUREG	        166        100.0
+                                RIPPLE	         23        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                           toprotDer00	          1         6.0
+                             toprotIzq	          1         6.0
+                              topdiv00	          1        25.5
+                             shiftRL00	          1         5.7
+                             shiftRD00	          1         6.0
+                            barrelrIzq	          1         8.9
+                            barrelrDer	          1         8.9
+                             barrelDer	          1         8.7
+                             barrelIzq	          1         9.0
+---------------------------------------------------
+Report for cell barrelrDer
+   Instance path: topshiftRL00/SRL08
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.75         8.9
+                                  LUT4	      15.00         8.7
+                                PFUREG	         20        12.0
+                                RIPPLE	          3        13.0
+---------------------------------------------------
+Report for cell barrelrIzq
+   Instance path: topshiftRL00/SRL07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.75         8.9
+                                  LUT4	      15.00         8.7
+                                PFUREG	         20        12.0
+                                RIPPLE	          3        13.0
+---------------------------------------------------
+Report for cell barrelDer
+   Instance path: topshiftRL00/SRL06
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.50         8.7
+                                  LUT4	      14.00         8.1
+                                PFUREG	         20        12.0
+                                RIPPLE	          3        13.0
+---------------------------------------------------
+Report for cell barrelIzq
+   Instance path: topshiftRL00/SRL05
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       9.83         9.0
+                                  LUT4	      14.00         8.1
+                                PFUREG	         20        12.0
+                                RIPPLE	          3        13.0
+---------------------------------------------------
+Report for cell toprotDer00
+   Instance path: topshiftRL00/SRL04
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.50         6.0
+                                  LUT4	       8.00         4.7
+                                PFUREG	         16         9.6
+---------------------------------------------------
+Report for cell toprotIzq
+   Instance path: topshiftRL00/SRL03
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.50         6.0
+                                  LUT4	       8.00         4.7
+                                PFUREG	         16         9.6
+---------------------------------------------------
+Report for cell shiftRD00
+   Instance path: topshiftRL00/SRL02
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.50         6.0
+                                  LUT4	       8.00         4.7
+                                PFUREG	         16         9.6
+---------------------------------------------------
+Report for cell shiftRL00
+   Instance path: topshiftRL00/SRL01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       6.17         5.7
+                                  LUT4	       8.00         4.7
+                                PFUREG	         16         9.6
+---------------------------------------------------
+Report for cell topdiv00
+   Instance path: topshiftRL00/SRL00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.75        25.5
+                                  LUT4	      47.00        27.3
+                                PFUREG	         22        13.3
+                                RIPPLE	         11        47.8
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                                 osc00	          1         0.0
+                                 div00	          1        25.5
+---------------------------------------------------
+Report for cell div00
+   Instance path: topshiftRL00/SRL00/OS01
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      27.75        25.5
+                                  LUT4	      47.00        27.3
+                                PFUREG	         22        13.3
+                                RIPPLE	         11        47.8
+---------------------------------------------------
+Report for cell osc00
+   Instance path: topshiftRL00/SRL00/OS00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)

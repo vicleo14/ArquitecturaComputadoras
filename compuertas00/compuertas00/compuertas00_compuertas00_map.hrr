@@ -1,0 +1,18 @@
+---------------------------------------------------
+Report for cell compuertas00
+   Instance path: compuertas00
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        100.0
+                                  LUT4	      16.00        100.0
+                                 IOBUF	         27        100.0
+SUB MODULES
+                                  cell	      count    SLC Usage(%)
+                               mux8vhd	          1        100.0
+---------------------------------------------------
+Report for cell mux8vhd
+   Instance path: compuertas00/CO07
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       8.00        100.0
+                                  LUT4	      16.00        100.0

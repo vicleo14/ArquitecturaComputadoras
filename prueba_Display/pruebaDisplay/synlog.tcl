@@ -1,0 +1,1 @@
+run_tcl -fg pruebaDisplay_pruebaDisplay_synplify.tcl

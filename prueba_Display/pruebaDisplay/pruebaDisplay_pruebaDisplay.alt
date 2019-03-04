@@ -1,0 +1,16 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Sun Mar 03 13:43:46 2019 *
+NOTE DESIGN NAME: pruebaDisplay *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS A : 132 : out *
+NOTE PINS P : 143 : out *
+NOTE PINS G : 142 : out *
+NOTE PINS F : 141 : out *
+NOTE PINS E : 140 : out *
+NOTE PINS D : 139 : out *
+NOTE PINS C : 138 : out *
+NOTE PINS B : 133 : out *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

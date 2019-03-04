@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="compuertas00" device="LCMXO2-7000HE-5TG144C" default_implementation="compuertas00">
+    <Options/>
+    <Implementation title="compuertas00" dir="compuertas00" description="compuertas00" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="compuertas00"/>
+        <Source name="and.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="nand.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="nor00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="not00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="or00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="xnor00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="xor00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="mux8vhd.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagecompuertas00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="compuertas0.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="compuertas00"/>
+        </Source>
+        <Source name="compuertas00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="compuertas00/compuertas00.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="compuertas001.sty"/>
+</BaliProject>

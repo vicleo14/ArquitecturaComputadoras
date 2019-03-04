@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topshiftRL00  -multisrs  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\shiftRL00\shiftRL00\synwork\shiftRL00_shiftRL00_comp.srs  -osyn  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\shiftRL00\shiftRL00\synwork\shiftRL00_shiftRL00_mult.srs  -log  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\shiftRL00\shiftRL00\synlog\shiftRL00_shiftRL00_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topshiftRL00 -multisrs ..\synwork\shiftRL00_shiftRL00_comp.srs -osyn ..\synwork\shiftRL00_shiftRL00_mult.srs -log ..\synlog\shiftRL00_shiftRL00_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\shiftRL00_shiftRL00_comp.srs|io:i|time:1550790901|size:6972|exec:0|csum:F404D2746DDF2A14A46962BC2A313E03
+file:..\synwork\shiftRL00_shiftRL00_mult.srs|io:o|time:1550790903|size:2525|exec:0|csum:
+file:..\synlog\shiftRL00_shiftRL00_multi_srs_gen.srr|io:o|time:1550790903|size:552|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

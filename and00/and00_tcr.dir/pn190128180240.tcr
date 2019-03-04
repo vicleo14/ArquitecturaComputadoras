@@ -1,0 +1,6 @@
+#Start recording tcl command: 1/28/2019 16:42:12
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/and00; Project name: and00
+prj_project new -name "and00" -impl "and00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/and00/and00.vhdl"
+#Stop recording: 1/28/2019 18:02:40

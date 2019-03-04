@@ -1,0 +1,15 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\compuertas0.vhd":7:7:7:18|Top entity is set to compuertas00.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\compuertas0.vhd":7:7:7:18|Synthesizing work.compuertas00.compuertas0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\mux8vhd.vhd":6:7:6:13|Synthesizing work.mux8vhd.implementacion.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\not00.vhd":6:7:6:11|Synthesizing work.not00.not0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\xnor00.vhd":6:7:6:12|Synthesizing work.xnor00.xnor0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\nand.vhd":6:7:6:12|Synthesizing work.nand00.nand0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\nor00.vhd":6:7:6:11|Synthesizing work.nor00.nor0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\xor00.vhd":6:7:6:11|Synthesizing work.xor00.xor0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\or00.vhd":6:7:6:10|Synthesizing work.or00.or0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\and.vhdl":6:7:6:11|Synthesizing work.and00.and0.
+@N|Running in 64-bit mode
+

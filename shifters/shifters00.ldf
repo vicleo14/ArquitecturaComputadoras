@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="shifters00" device="LCMXO2-7000HE-5TG144C" default_implementation="shifters00">
+    <Options/>
+    <Implementation title="shifters00" dir="shifters00" description="shifters00" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topshiftRL00"/>
+        <Source name="shifters00/source/div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shifters00/source/osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shifters00/source/packagediv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shifters00/source/topdiv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shifters00/source/shiftRL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topshiftRD00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="toprotIzq.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="toprotDer00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="barrelIzq.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="barrelDer.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="barrelrIzq.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="barrelrDer.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shifters00/source/packageshitfRL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="shifters00/source/topshiftRL00.vhdl" type="VHDL" type_short="VHDL">
+            <Options top_module="topshiftRL00"/>
+        </Source>
+        <Source name="shifters00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="shifters00/shifters00.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="shifters001.sty"/>
+</BaliProject>

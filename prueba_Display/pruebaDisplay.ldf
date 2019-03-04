@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="pruebaDisplay" device="LCMXO2-7000HE-5TG144C" default_implementation="pruebaDisplay">
+    <Options/>
+    <Implementation title="pruebaDisplay" dir="pruebaDisplay" description="pruebaDisplay" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="pruebaDisplay"/>
+        <Source name="pruebaDisplay.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="pruebaDisplay"/>
+        </Source>
+        <Source name="pruebaDisplay.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="pruebaDisplay/pruebaDisplay.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="pruebaDisplay1.sty"/>
+</BaliProject>

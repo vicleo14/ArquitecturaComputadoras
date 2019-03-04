@@ -1,0 +1,84 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\compuertas00\\synwork\\compuertas00_compuertas00_comp.srs|-top|compuertas00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\and.vhdl":1550612714
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\cpld\\lattice.vhd":1501917816
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\nand.vhd":1549999542
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\nor00.vhd":1549999449
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\not00.vhd":1550000250
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\or00.vhd":1549999339
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\xnor00.vhd":1550612559
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\xor00.vhd":1549999455
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\mux8vhd.vhd":1550000077
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\packagecompuertas00.vhd":1550000364
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\compuertas00\\compuertas0.vhd":1550612732
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\and.vhdl" vhdl
+2 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\nand.vhd" vhdl
+3 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\nor00.vhd" vhdl
+4 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\not00.vhd" vhdl
+5 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\or00.vhd" vhdl
+6 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\xnor00.vhd" vhdl
+7 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\xor00.vhd" vhdl
+8 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\mux8vhd.vhd" vhdl
+9 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\packagecompuertas00.vhd" vhdl
+10 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\compuertas00\compuertas0.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 1 5 7 3 2 6 4 8 9 
+
+# Dependency Lists (Users Of)
+0 -1
+1 10 
+2 10 
+3 10 
+4 10 
+5 10 
+6 10 
+7 10 
+8 10 
+9 10 
+10 -1
+
+# Design Unit to File Association
+arch work and00 and0 1
+module work and00 1
+arch work nand00 nand0 2
+module work nand00 2
+arch work nor00 nor0 3
+module work nor00 3
+arch work not00 not0 4
+module work not00 4
+arch work or00 or0 5
+module work or00 5
+arch work xnor00 xnor0 6
+module work xnor00 6
+arch work xor00 xor0 7
+module work xor00 7
+arch work mux8vhd implementacion 8
+module work mux8vhd 8
+arch work compuertas00 compuertas0 10
+module work compuertas00 10
+
+
+# Configuration files used
