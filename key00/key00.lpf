@@ -29,3 +29,7 @@ LOCATE COMP "disp[2]" SITE "35" ;
 LOCATE COMP "disp[3]" SITE "34" ;
 LOCATE COMP "disp[4]" SITE "32" ;
 LOCATE COMP "disp[5]" SITE "27" ;
+LOCATE COMP "outrled0[3]" SITE "110" ;
+LOCATE COMP "outrled0[2]" SITE "109" ;
+LOCATE COMP "outrled0[1]" SITE "112" ;
+LOCATE COMP "outrled0[0]" SITE "111" ;

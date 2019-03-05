@@ -6,7 +6,7 @@ Performance Grade:      5
 PACKAGE:          TQFP144
 Package Status:                     Final          Version 1.39
 
-Mon Mar 04 23:07:56 2019
+Tue Mar 05 15:19:39 2019
 
 Pinout by Port Name:
 +--------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
@@ -41,6 +41,10 @@ Pinout by Port Name:
 | outr0[1]     | 78/1     | LVCMOS25_OUT | PR21A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outr0[2]     | 81/1     | LVCMOS25_OUT | PR18B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 | outr0[3]     | 82/1     | LVCMOS25_OUT | PR18A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outrled0[0]  | 111/0    | LVCMOS25_OUT | PT35B |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outrled0[1]  | 112/0    | LVCMOS25_OUT | PT35A |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outrled0[2]  | 109/0    | LVCMOS25_OUT | PT36D |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
+| outrled0[3]  | 110/0    | LVCMOS25_OUT | PT36C |           |           | DRIVE:8mA PULL:DOWN SLEW:SLOW        |
 +--------------+----------+--------------+-------+-----------+-----------+--------------------------------------+
 
 Vccio by Bank:
@@ -150,10 +154,10 @@ Pinout by Pin Number:
 | 105/1    |     unused, PULL:DOWN |            |              | PR3A  | R_GPLLT_IN/DQ0 |           |           |
 | 106/1    |     unused, PULL:DOWN |            |              | PR2B  | R_GPLLC_FB/DQ0 |           |           |
 | 107/1    |     unused, PULL:DOWN |            |              | PR2A  | R_GPLLT_FB/DQ0 |           |           |
-| 109/0    |     unused, PULL:DOWN |            |              | PT36D | DONE           |           |           |
-| 110/0    |     unused, PULL:DOWN |            |              | PT36C | INITN          |           |           |
-| 111/0    |     unused, PULL:DOWN |            |              | PT35B |                |           |           |
-| 112/0    |     unused, PULL:DOWN |            |              | PT35A |                |           |           |
+| 109/0    | outrled0[2]           | LOCATED    | LVCMOS25_OUT | PT36D | DONE           |           |           |
+| 110/0    | outrled0[3]           | LOCATED    | LVCMOS25_OUT | PT36C | INITN          |           |           |
+| 111/0    | outrled0[0]           | LOCATED    | LVCMOS25_OUT | PT35B |                |           |           |
+| 112/0    | outrled0[1]           | LOCATED    | LVCMOS25_OUT | PT35A |                |           |           |
 | 113/0    |     unused, PULL:DOWN |            |              | PT33B |                |           |           |
 | 114/0    |     unused, PULL:DOWN |            |              | PT33A |                |           |           |
 | 115/0    |     unused, PULL:DOWN |            |              | PT28B |                |           |           |
@@ -446,6 +450,10 @@ LOCATE  COMP  "outr0[0]"  SITE  "77";
 LOCATE  COMP  "outr0[1]"  SITE  "78";
 LOCATE  COMP  "outr0[2]"  SITE  "81";
 LOCATE  COMP  "outr0[3]"  SITE  "82";
+LOCATE  COMP  "outrled0[0]"  SITE  "111";
+LOCATE  COMP  "outrled0[1]"  SITE  "112";
+LOCATE  COMP  "outrled0[2]"  SITE  "109";
+LOCATE  COMP  "outrled0[3]"  SITE  "110";
 
 
 
@@ -457,5 +465,5 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Mon Mar 04 23:07:56 2019
+Tue Mar 05 15:19:40 2019
 

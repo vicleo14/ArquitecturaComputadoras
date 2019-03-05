@@ -3,7 +3,7 @@
 #OS: Windows 7 6.1
 #Hostname: VICTOR-PC
 
-# Mon Mar  4 23:07:43 2019
+# Tue Mar  5 15:18:41 2019
 
 #Implementation: key00
 
@@ -26,7 +26,7 @@ File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\packagetopk
 File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\topdiv00.vhdl changed - recompiling
 File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd changed - recompiling
 VHDL syntax check successful!
-File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd changed - recompiling
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd":7:7:7:14|Synthesizing work.topkey00.topkey0.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
 Post processing for work.coder00.coder0
@@ -59,7 +59,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Mar  4 23:07:43 2019
+# Tue Mar  5 15:18:41 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -71,7 +71,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Mar  4 23:07:43 2019
+# Tue Mar  5 15:18:42 2019
 
 ###########################################################]
 @END
@@ -81,7 +81,7 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Mar  4 23:07:43 2019
+# Tue Mar  5 15:18:42 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -93,12 +93,12 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Mon Mar  4 23:07:45 2019
+# Tue Mar  5 15:18:43 2019
 
 ###########################################################]
 Pre-mapping Report
 
-# Mon Mar  4 23:07:45 2019
+# Tue Mar  5 15:18:43 2019
 
 Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -162,12 +162,12 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 141MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Mon Mar  4 23:07:46 2019
+# Tue Mar  5 15:18:44 2019
 
 ###########################################################]
 Map & Optimize Report
 
-# Mon Mar  4 23:07:46 2019
+# Tue Mar  5 15:18:44 2019
 
 Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
 Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
@@ -219,7 +219,7 @@ Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CP
 Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
 
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
@@ -228,13 +228,13 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 146MB)
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:01s		   466.23ns		  74 /        35
+   1		0h:00m:00s		   467.86ns		  75 /        35
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 144MB peak: 146MB)
 
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
 @A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\key00\contring00.vhd":19:2:19:3|Boundary register KE01.outr_3_.fb (in view: work.topkey00(topkey0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
@@ -242,7 +242,7 @@ Finished technology timing optimizations and critical path resynthesis (Real Tim
 @A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\key00\contring00.vhd":19:2:19:3|Boundary register KE01.outr_1_.fb (in view: work.topkey00(topkey0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\key00\contring00.vhd":19:2:19:3|Boundary register KE01.outr_0_.fb (in view: work.topkey00(topkey0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 147MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 146MB)
 
 @N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
 
@@ -266,11 +266,11 @@ Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sampl
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 147MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 146MB)
 
 Writing Analyst data base D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synwork\key00_key00_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 147MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 146MB)
 
 Writing EDIF Netlist and constraint files
 @N: FX1056 |Writing EDF file: D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\key00_key00.edi
@@ -280,13 +280,13 @@ M-2017.03L-SP1-1
 Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 150MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 149MB peak: 150MB)
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 150MB)
 
 @W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:KE00.OS00.osc_int"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Mon Mar  4 23:07:48 2019
+# Timing Report written on Tue Mar  5 15:18:46 2019
 #
 
 
@@ -305,12 +305,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 466.643
+Worst slack in design: 468.508
 
                                  Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
 -------------------------------------------------------------------------------------------------------------------------------------
-osc00|osc_int_inferred_clock     2.1 MHz       70.8 MHz      480.769       14.127        466.643     inferred     Inferred_clkgroup_0
+osc00|osc_int_inferred_clock     2.1 MHz       81.6 MHz      480.769       12.261        468.508     inferred     Inferred_clkgroup_0
 =====================================================================================================================================
 
 
@@ -324,7 +324,7 @@ Clocks                                                      |    rise  to  rise 
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 ----------------------------------------------------------------------------------------------------------------------------------------------------
-osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     466.643  |  No paths    -      |  No paths    -      |  No paths    -    
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     468.508  |  No paths    -      |  No paths    -      |  No paths    -    
 ====================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
@@ -351,16 +351,16 @@ Starting Points with Worst Slack
 Instance               Reference                        Type        Pin     Net          Time        Slack  
                        Clock                                                                                
 ------------------------------------------------------------------------------------------------------------
-KE00.OS01.sdiv[0]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]      1.044       466.643
-KE00.OS01.sdiv[1]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[1]      1.044       466.643
-KE00.OS01.sdiv[2]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]      1.044       466.643
-KE00.OS01.sdiv[3]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]      1.044       466.643
-KE00.OS01.sdiv[4]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[4]      1.044       466.643
-KE00.OS01.sdiv[5]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[5]      1.044       466.643
-KE00.OS01.sdiv[6]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[6]      1.044       466.643
-KE00.OS01.sdiv[7]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]      1.044       466.643
-KE00.OS01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[17]     1.148       467.491
-KE00.OS01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[20]     1.180       467.491
+KE00.OS01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[20]     1.148       468.508
+KE00.OS01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[19]     1.108       468.548
+KE00.OS01.sdiv[0]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]      1.044       468.596
+KE00.OS01.sdiv[1]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[1]      1.044       468.596
+KE00.OS01.sdiv[2]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]      1.044       468.596
+KE00.OS01.sdiv[3]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]      1.044       468.596
+KE00.OS01.sdiv[4]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[4]      1.044       468.596
+KE00.OS01.sdiv[5]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[5]      1.044       468.596
+KE00.OS01.sdiv[6]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[6]      1.044       468.596
+KE00.OS01.sdiv[7]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[7]      1.044       468.596
 ============================================================================================================
 
 
@@ -371,16 +371,16 @@ Ending Points with Worst Slack
 Instance               Reference                        Type        Pin     Net              Time         Slack  
                        Clock                                                                                     
 -----------------------------------------------------------------------------------------------------------------
-KE00.OS01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      466.643
-KE00.OS01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[21]     480.664      466.643
-KE00.OS01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      466.786
-KE00.OS01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      466.786
-KE00.OS01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      466.928
-KE00.OS01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      466.928
-KE00.OS01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      467.071
-KE00.OS01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      467.071
-KE00.OS01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      467.214
-KE00.OS01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      467.214
+KE00.OS01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      468.508
+KE00.OS01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[21]     480.664      468.508
+KE00.OS01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      468.651
+KE00.OS01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      468.651
+KE00.OS01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      468.794
+KE00.OS01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      468.794
+KE00.OS01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      468.937
+KE00.OS01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      468.937
+KE00.OS01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      469.079
+KE00.OS01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      469.079
 =================================================================================================================
 
 
@@ -395,80 +395,74 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         480.664
 
-    - Propagation time:                      14.021
+    - Propagation time:                      12.155
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     466.643
+    = Slack (critical) :                     468.508
 
-    Number of logic level(s):                19
-    Starting point:                          KE00.OS01.sdiv[0] / Q
+    Number of logic level(s):                17
+    Starting point:                          KE00.OS01.sdiv[20] / Q
     Ending point:                            KE00.OS01.sdiv[20] / D
     The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
     The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
 
-Instance / Net                                        Pin      Pin               Arrival     No. of    
-Name                                     Type         Name     Dir     Delay     Time        Fan Out(s)
--------------------------------------------------------------------------------------------------------
-KE00.OS01.sdiv[0]                        FD1S3IX      Q        Out     1.044     1.044       -         
-sdiv[0]                                  Net          -        -       -         -           2         
-KE00.OS01.outdiv_0_sqmuxa_7_i_a2_1_6     ORCALUT4     A        In      0.000     1.044       -         
-KE00.OS01.outdiv_0_sqmuxa_7_i_a2_1_6     ORCALUT4     Z        Out     1.017     2.061       -         
-outdiv_0_sqmuxa_7_i_a2_1_6               Net          -        -       -         -           1         
-KE00.OS01.outdiv_0_sqmuxa_7_i_a2_1       ORCALUT4     B        In      0.000     2.061       -         
-KE00.OS01.outdiv_0_sqmuxa_7_i_a2_1       ORCALUT4     Z        Out     1.089     3.149       -         
-N_81                                     Net          -        -       -         -           2         
-KE00.OS01.outdiv_0_sqmuxa_6_i_a2_0       ORCALUT4     C        In      0.000     3.149       -         
-KE00.OS01.outdiv_0_sqmuxa_6_i_a2_0       ORCALUT4     Z        Out     1.089     4.238       -         
-N_84                                     Net          -        -       -         -           2         
-KE00.OS01.outdiv_0_sqmuxa_3_i_a2         ORCALUT4     C        In      0.000     4.238       -         
-KE00.OS01.outdiv_0_sqmuxa_3_i_a2         ORCALUT4     Z        Out     1.193     5.431       -         
-N_85                                     Net          -        -       -         -           4         
-KE00.OS01.outdiv_0_sqmuxa_5_i_1          ORCALUT4     D        In      0.000     5.431       -         
-KE00.OS01.outdiv_0_sqmuxa_5_i_1          ORCALUT4     Z        Out     1.017     6.448       -         
-N_12_1                                   Net          -        -       -         -           1         
-KE00.OS01.un1_outdiv_0_sqmuxa_1_1        ORCALUT4     C        In      0.000     6.448       -         
-KE00.OS01.un1_outdiv_0_sqmuxa_1_1        ORCALUT4     Z        Out     1.089     7.537       -         
-un1_sdiv69_2_0                           Net          -        -       -         -           2         
-KE00.OS01.un1_sdiv69_2_0                 ORCALUT4     A        In      0.000     7.537       -         
-KE00.OS01.un1_sdiv69_2_0                 ORCALUT4     Z        Out     1.089     8.625       -         
-un1_sdiv69_2_1                           Net          -        -       -         -           2         
-KE00.OS01.un1_sdiv69_i                   ORCALUT4     C        In      0.000     8.625       -         
-KE00.OS01.un1_sdiv69_i                   ORCALUT4     Z        Out     1.017     9.642       -         
-un1_sdiv69_i                             Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_0_0               CCU2D        B0       In      0.000     9.642       -         
-KE00.OS01.un1_sdiv_cry_0_0               CCU2D        COUT     Out     1.544     11.187      -         
-un1_sdiv_cry_0                           Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_1_0               CCU2D        CIN      In      0.000     11.187      -         
-KE00.OS01.un1_sdiv_cry_1_0               CCU2D        COUT     Out     0.143     11.329      -         
-un1_sdiv_cry_2                           Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_3_0               CCU2D        CIN      In      0.000     11.329      -         
-KE00.OS01.un1_sdiv_cry_3_0               CCU2D        COUT     Out     0.143     11.472      -         
-un1_sdiv_cry_4                           Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_5_0               CCU2D        CIN      In      0.000     11.472      -         
-KE00.OS01.un1_sdiv_cry_5_0               CCU2D        COUT     Out     0.143     11.615      -         
-un1_sdiv_cry_6                           Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_7_0               CCU2D        CIN      In      0.000     11.615      -         
-KE00.OS01.un1_sdiv_cry_7_0               CCU2D        COUT     Out     0.143     11.758      -         
-un1_sdiv_cry_8                           Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_9_0               CCU2D        CIN      In      0.000     11.758      -         
-KE00.OS01.un1_sdiv_cry_9_0               CCU2D        COUT     Out     0.143     11.901      -         
-un1_sdiv_cry_10                          Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_11_0              CCU2D        CIN      In      0.000     11.901      -         
-KE00.OS01.un1_sdiv_cry_11_0              CCU2D        COUT     Out     0.143     12.043      -         
-un1_sdiv_cry_12                          Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_13_0              CCU2D        CIN      In      0.000     12.043      -         
-KE00.OS01.un1_sdiv_cry_13_0              CCU2D        COUT     Out     0.143     12.186      -         
-un1_sdiv_cry_14                          Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_15_0              CCU2D        CIN      In      0.000     12.186      -         
-KE00.OS01.un1_sdiv_cry_15_0              CCU2D        COUT     Out     0.143     12.329      -         
-un1_sdiv_cry_16                          Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_17_0              CCU2D        CIN      In      0.000     12.329      -         
-KE00.OS01.un1_sdiv_cry_17_0              CCU2D        COUT     Out     0.143     12.472      -         
-un1_sdiv_cry_18                          Net          -        -       -         -           1         
-KE00.OS01.un1_sdiv_cry_19_0              CCU2D        CIN      In      0.000     12.472      -         
-KE00.OS01.un1_sdiv_cry_19_0              CCU2D        S1       Out     1.549     14.021      -         
-un1_sdiv[21]                             Net          -        -       -         -           1         
-KE00.OS01.sdiv[20]                       FD1S3IX      D        In      0.000     14.021      -         
-=======================================================================================================
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                   Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+KE00.OS01.sdiv[20]                     FD1S3IX      Q        Out     1.148     1.148       -         
+sdiv[20]                               Net          -        -       -         -           4         
+KE00.OS01.outdiv_0_sqmuxa_1_i_a3       ORCALUT4     B        In      0.000     1.148       -         
+KE00.OS01.outdiv_0_sqmuxa_1_i_a3       ORCALUT4     Z        Out     1.225     2.373       -         
+N_76                                   Net          -        -       -         -           5         
+KE00.OS01.outdiv_0_sqmuxa_7_i_a2_0     ORCALUT4     D        In      0.000     2.373       -         
+KE00.OS01.outdiv_0_sqmuxa_7_i_a2_0     ORCALUT4     Z        Out     1.193     3.565       -         
+N_86                                   Net          -        -       -         -           4         
+KE00.OS01.outdiv_0_sqmuxa_5_i_1_1      ORCALUT4     D        In      0.000     3.565       -         
+KE00.OS01.outdiv_0_sqmuxa_5_i_1_1      ORCALUT4     Z        Out     1.017     4.582       -         
+outdiv_0_sqmuxa_5_i_1_1                Net          -        -       -         -           1         
+KE00.OS01.outdiv_0_sqmuxa_5_i_1        ORCALUT4     A        In      0.000     4.582       -         
+KE00.OS01.outdiv_0_sqmuxa_5_i_1        ORCALUT4     Z        Out     1.089     5.671       -         
+N_12_1                                 Net          -        -       -         -           2         
+KE00.OS01.un1_sdiv69_1                 ORCALUT4     D        In      0.000     5.671       -         
+KE00.OS01.un1_sdiv69_1                 ORCALUT4     Z        Out     1.089     6.760       -         
+un1_sdiv69_1                           Net          -        -       -         -           2         
+KE00.OS01.un1_sdiv69_i                 ORCALUT4     D        In      0.000     6.760       -         
+KE00.OS01.un1_sdiv69_i                 ORCALUT4     Z        Out     1.017     7.777       -         
+un1_sdiv69_i                           Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_0_0             CCU2D        B0       In      0.000     7.777       -         
+KE00.OS01.un1_sdiv_cry_0_0             CCU2D        COUT     Out     1.544     9.321       -         
+un1_sdiv_cry_0                         Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_1_0             CCU2D        CIN      In      0.000     9.321       -         
+KE00.OS01.un1_sdiv_cry_1_0             CCU2D        COUT     Out     0.143     9.464       -         
+un1_sdiv_cry_2                         Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_3_0             CCU2D        CIN      In      0.000     9.464       -         
+KE00.OS01.un1_sdiv_cry_3_0             CCU2D        COUT     Out     0.143     9.607       -         
+un1_sdiv_cry_4                         Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_5_0             CCU2D        CIN      In      0.000     9.607       -         
+KE00.OS01.un1_sdiv_cry_5_0             CCU2D        COUT     Out     0.143     9.749       -         
+un1_sdiv_cry_6                         Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_7_0             CCU2D        CIN      In      0.000     9.749       -         
+KE00.OS01.un1_sdiv_cry_7_0             CCU2D        COUT     Out     0.143     9.892       -         
+un1_sdiv_cry_8                         Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_9_0             CCU2D        CIN      In      0.000     9.892       -         
+KE00.OS01.un1_sdiv_cry_9_0             CCU2D        COUT     Out     0.143     10.035      -         
+un1_sdiv_cry_10                        Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_11_0            CCU2D        CIN      In      0.000     10.035      -         
+KE00.OS01.un1_sdiv_cry_11_0            CCU2D        COUT     Out     0.143     10.178      -         
+un1_sdiv_cry_12                        Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_13_0            CCU2D        CIN      In      0.000     10.178      -         
+KE00.OS01.un1_sdiv_cry_13_0            CCU2D        COUT     Out     0.143     10.321      -         
+un1_sdiv_cry_14                        Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_15_0            CCU2D        CIN      In      0.000     10.321      -         
+KE00.OS01.un1_sdiv_cry_15_0            CCU2D        COUT     Out     0.143     10.463      -         
+un1_sdiv_cry_16                        Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_17_0            CCU2D        CIN      In      0.000     10.463      -         
+KE00.OS01.un1_sdiv_cry_17_0            CCU2D        COUT     Out     0.143     10.606      -         
+un1_sdiv_cry_18                        Net          -        -       -         -           1         
+KE00.OS01.un1_sdiv_cry_19_0            CCU2D        CIN      In      0.000     10.606      -         
+KE00.OS01.un1_sdiv_cry_19_0            CCU2D        S1       Out     1.549     12.155      -         
+un1_sdiv[21]                           Net          -        -       -         -           1         
+KE00.OS01.sdiv[20]                     FD1S3IX      D        In      0.000     12.155      -         
+=====================================================================================================
 
 
 
@@ -477,10 +471,10 @@ KE00.OS01.sdiv[20]                       FD1S3IX      D        In      0.000    
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 149MB peak: 150MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 150MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 149MB peak: 150MB)
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 148MB peak: 150MB)
 
 ---------------------------------------
 Resource Usage Report
@@ -488,7 +482,7 @@ Part: lcmxo2_7000he-5
 
 Register bits: 35 of 6864 (1%)
 PIC Latch:       0
-I/O cells:       29
+I/O cells:       33
 
 
 Details:
@@ -500,11 +494,10 @@ FD1S3IX:        21
 FD1S3JX:        1
 GSR:            1
 IB:             10
-OB:             19
+OB:             23
 OFS1P3DX:       7
-ORCALUT4:       73
+ORCALUT4:       74
 OSCH:           1
-PFUMX:          1
 PUR:            1
 VHI:            6
 VLO:            6
@@ -513,6 +506,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 31MB peak: 150MB)
 
 Process took 0h:00m:02s realtime, 0h:00m:02s cputime
-# Mon Mar  4 23:07:48 2019
+# Tue Mar  5 15:18:47 2019
 
 ###########################################################]

@@ -24,23 +24,23 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  03/04/19  23:07:49
+Mapped on:  03/05/19  15:19:32
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
    Number of registers:     35 out of  7209 (0%)
       PFU registers:           28 out of  6864 (0%)
       PIO registers:            7 out of   345 (2%)
-   Number of SLICEs:        49 out of  3432 (1%)
-      SLICEs as Logic/ROM:     49 out of  3432 (1%)
+   Number of SLICEs:        50 out of  3432 (1%)
+      SLICEs as Logic/ROM:     50 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         11 out of  3432 (0%)
-   Number of LUT4s:         97 out of  6864 (1%)
-      Number used as logic LUTs:         75
+   Number of LUT4s:         98 out of  6864 (1%)
+      Number used as logic LUTs:         76
       Number used as distributed RAM:     0
       Number used as ripple logic:       22
       Number used as shift registers:     0
-   Number of PIO sites used: 29 + 4(JTAG) out of 115 (29%)
+   Number of PIO sites used: 33 + 4(JTAG) out of 115 (32%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  0 out of 1 (0%)
    EFB used :       No
@@ -70,24 +70,24 @@ Mapped on:  03/04/19  23:07:49
 
      )
    Number of Clock Enables:  2
-     Net un1_aux88_0_o2_0_RNISVSA3: 7 loads, 0 LSLICEs
-     Net un1_outdiv_0_sqmuxa_1_3_RNI5ON71: 3 loads, 3 LSLICEs
+     Net un1_aux88_0_o2_0_RNIRS7P2: 7 loads, 0 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_RNI4L2M: 3 loads, 3 LSLICEs
    Number of LSRs:  3
-     Net un1_outdiv_0_sqmuxa_1_3_RNISEPF1: 2 loads, 2 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_RNIRB4U: 2 loads, 2 LSLICEs
      Net KE01/fb: 1 loads, 1 LSLICEs
      Net KE00/OS01/un1_sdiv69_RNIT43S: 11 loads, 11 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net outr0_c[0]: 14 loads
-     Net outr0_c[3]: 14 loads
-     Net outr0_c[2]: 13 loads
+     Net outr0_c[0]: 15 loads
+     Net outr0_c[3]: 15 loads
+     Net outr0_c[2]: 14 loads
      Net KE00/OS01/un1_sdiv69_RNIT43S: 11 loads
+     Net cdiv_c[4]: 8 loads
      Net inkey0_c[1]: 8 loads
-     Net inkey0_c[2]: 8 loads
-     Net inkey0_c[3]: 8 loads
-     Net cdiv_c[0]: 7 loads
-     Net cdiv_c[4]: 7 loads
-     Net un1_aux88_0_o2_0_RNISVSA3: 7 loads
+     Net inkey0_c[0]: 7 loads
+     Net inkey0_c[2]: 7 loads
+     Net inkey0_c[3]: 7 loads
+     Net KE00/OS01/sdiv[18]: 7 loads
 
 
 
@@ -146,6 +146,14 @@ Mapped on:  03/04/19  23:07:49
 +---------------------+-----------+-----------+------------+
 | clk00               | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
+| outrled0[3]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outrled0[2]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outrled0[1]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outrled0[0]         | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
 | outr0[3]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | outr0[2]            | OUTPUT    | LVCMOS25  |            |
@@ -177,15 +185,15 @@ Mapped on:  03/04/19  23:07:49
 
 Block GSR_INST undriven or does not drive anything - clipped.
 Block KE00/GND undriven or does not drive anything - clipped.
+
 Block KE00/VCC undriven or does not drive anything - clipped.
 Block KE00/OS00/VCC undriven or does not drive anything - clipped.
 Block KE00/OS01/VCC undriven or does not drive anything - clipped.
-Block KE01/VCC undriven or does not drive anything - clipped.
 Block KE01/GND undriven or does not drive anything - clipped.
-Block KE02/GND undriven or does not drive anything - clipped.
+Block KE01/VCC undriven or does not drive anything - clipped.
 Block KE02/VCC undriven or does not drive anything - clipped.
+Block KE02/GND undriven or does not drive anything - clipped.
 Signal KE00/OS00/GND undriven or does not drive anything - clipped.
-
 Signal KE00/OS01/GND undriven or does not drive anything - clipped.
 Signal KE00/OS00/OSCInst0_SEDSTDBY undriven or does not drive anything -
      clipped.
@@ -193,7 +201,7 @@ Signal KE00/OS01/un1_sdiv_cry_19_0_COUT undriven or does not drive anything -
      clipped.
 Signal KE00/OS01/un1_sdiv_cry_0_0_S0 undriven or does not drive anything -
      clipped.
-Signal KE00/OS01/N_1 undriven or does not drive anything - clipped.
+Signal KE00/OS01/N_5 undriven or does not drive anything - clipped.
 Block KE00/OS00/GND was optimized away.
 Block KE00/OS01/GND was optimized away.
 
@@ -231,14 +239,6 @@ Instance Name: KE00/OS00/OSCInst0
    Total REAL Time: 0 secs  
    Peak Memory Usage: 56 MB
         
-
-
-
-
-
-
-
-
 
 
 
