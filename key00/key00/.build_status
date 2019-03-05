@@ -6,37 +6,37 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1551742786"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1551762485"/>
         </Milestone>
-        <Milestone name="Map" build_result="2" build_time="1551742769">
-            <Task name="Map" build_result="2" update_result="0" update_time="1551742769"/>
+        <Milestone name="Map" build_result="2" build_time="1551762470">
+            <Task name="Map" build_result="2" update_result="0" update_time="1551762470"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="2" build_time="1551742782">
-            <Task name="PAR" build_result="2" update_result="0" update_time="1551742782"/>
+        <Milestone name="PAR" build_result="2" build_time="1551762480">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1551762480"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1551742768">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1551742768"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1551762469">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1551762469"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1551742740"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1551762459"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1551742768">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1551742768"/>
+        <Milestone name="Translate" build_result="2" build_time="1551762469">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1551762469"/>
         </Milestone>
-        <Report name="key00_key00.bgn" last_build_time="1551742786" last_build_size="4281"/>
-        <Report name="key00_key00.edi" last_build_time="1551742767" last_build_size="58147"/>
-        <Report name="key00_key00.jed" last_build_time="1551742786" last_build_size="1465010"/>
-        <Report name="key00_key00.ncd" last_build_time="1551742781" last_build_size="71564"/>
-        <Report name="key00_key00.ngd" last_build_time="1551742768" last_build_size="57973"/>
-        <Report name="key00_key00_map.ncd" last_build_time="1551742769" last_build_size="52182"/>
+        <Report name="key00_key00.bgn" last_build_time="1551762485" last_build_size="4281"/>
+        <Report name="key00_key00.edi" last_build_time="1551762468" last_build_size="92575"/>
+        <Report name="key00_key00.jed" last_build_time="1551762485" last_build_size="1465353"/>
+        <Report name="key00_key00.ncd" last_build_time="1551762480" last_build_size="112154"/>
+        <Report name="key00_key00.ngd" last_build_time="1551762469" last_build_size="88344"/>
+        <Report name="key00_key00_map.ncd" last_build_time="1551762470" last_build_size="80246"/>
     </Strategy>
 </BuildStatus>

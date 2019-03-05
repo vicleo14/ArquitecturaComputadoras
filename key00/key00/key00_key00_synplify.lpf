@@ -3,7 +3,7 @@
 #
 
 # Period Constraints 
-#FREQUENCY NET "KE00/OS00/sclk" 2.1 MHz;
+#FREQUENCY NET "KE00/OS00/sclk_0" 2.1 MHz;
 
 
 # Output Constraints 

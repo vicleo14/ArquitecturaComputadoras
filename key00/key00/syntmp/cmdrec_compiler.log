@@ -1,15 +1,15 @@
 C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe  -osyn  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synwork\key00_key00_comp.srs  -top  topkey00  -hdllog  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synlog\key00_key00_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -vhdl  -prodtype  synplify_pro  -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver  -encrypt  -pro  -dmgen  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\div00.vhdl -lib work D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\osc00.vhdl -lib work D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\packagediv00.vhdl -lib work D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd -lib work D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl -lib work D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\packagetopkey00.vhd -lib work D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\topdiv00.vhdl -lib work D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd  -jobname  "compiler" 
 relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe -osyn ..\synwork\key00_key00_comp.srs -top topkey00 -hdllog ..\synlog\key00_key00_compiler.srr -encrypt -mp 4 -verification_mode 0 -vhdl -prodtype synplify_pro -dspmac -fixsmult -infer_seqShift -nram -sdff_counter -divnmod -nostructver -encrypt -pro -dmgen ..\dm -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm -ignore_undefined_lib -lib work C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd -lib work ..\source\div00.vhdl -lib work ..\source\osc00.vhdl -lib work ..\source\packagediv00.vhdl -lib work ..\..\contring00.vhd -lib work ..\..\coder00.vhdl -lib work ..\..\packagetopkey00.vhd -lib work ..\source\topdiv00.vhdl -lib work ..\..\topkey00.vhd -jobname "compiler"
-rc:0 success:1 runtime:2
-file:..\synwork\key00_key00_comp.srs|io:o|time:1551742762|size:9663|exec:0|csum:
-file:..\synlog\key00_key00_compiler.srr|io:o|time:1551742762|size:6112|exec:0|csum:
+rc:0 success:1 runtime:1
+file:..\synwork\key00_key00_comp.srs|io:o|time:1551762463|size:9857|exec:0|csum:
+file:..\synlog\key00_key00_compiler.srr|io:o|time:1551762463|size:6550|exec:0|csum:
 file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493331104|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
 file:..\source\div00.vhdl|io:i|time:1550611157|size:2061|exec:0|csum:B9EC8F72302176F3EF60997FB69308A8
 file:..\source\osc00.vhdl|io:i|time:1550532685|size:501|exec:0|csum:24065153F876BF4F35609D1F50606F51
 file:..\source\packagediv00.vhdl|io:i|time:1550611073|size:337|exec:0|csum:CEEC647C41F1C41388FE6DC7197D7712
-file:..\..\contring00.vhd|io:i|time:1551742343|size:602|exec:0|csum:BCEA7E3711914A70BD6845D5B26F90CC
-file:..\..\coder00.vhdl|io:i|time:1551742349|size:3007|exec:0|csum:500AD9FD1FCE41AFEBD5294E99CC7038
+file:..\..\contring00.vhd|io:i|time:1551761520|size:663|exec:0|csum:4CF4D0BF0BD5D62BCD5940C31A07E111
+file:..\..\coder00.vhdl|io:i|time:1551762459|size:3007|exec:0|csum:500AD9FD1FCE41AFEBD5294E99CC7038
 file:..\..\packagetopkey00.vhd|io:i|time:1551742366|size:590|exec:0|csum:774523305FFF0D94353F09FA783F6DF0
 file:..\source\topdiv00.vhdl|io:i|time:1551216685|size:418|exec:0|csum:E1FEB281333D8E6B004925ED74158DF9
-file:..\..\topkey00.vhd|io:i|time:1551742740|size:693|exec:0|csum:83A64BA5540D7435FC725285FCBE26AE
+file:..\..\topkey00.vhd|io:i|time:1551761934|size:791|exec:0|csum:4388621DC736C8109E880594A120C7C3
 file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_hdl.exe|io:i|time:1501913558|size:5526016|exec:1|csum:B0FC75282263C9BC65A760D01C67ECBA

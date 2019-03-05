@@ -24,23 +24,23 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  03/04/19  17:39:29
+Mapped on:  03/04/19  23:07:49
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     22 out of  7209 (0%)
-      PFU registers:           22 out of  6864 (0%)
-      PIO registers:            0 out of   345 (0%)
-   Number of SLICEs:        34 out of  3432 (1%)
-      SLICEs as Logic/ROM:     34 out of  3432 (1%)
+   Number of registers:     35 out of  7209 (0%)
+      PFU registers:           28 out of  6864 (0%)
+      PIO registers:            7 out of   345 (2%)
+   Number of SLICEs:        49 out of  3432 (1%)
+      SLICEs as Logic/ROM:     49 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         11 out of  3432 (0%)
-   Number of LUT4s:         68 out of  6864 (1%)
-      Number used as logic LUTs:         46
+   Number of LUT4s:         97 out of  6864 (1%)
+      Number used as logic LUTs:         75
       Number used as distributed RAM:     0
       Number used as ripple logic:       22
       Number used as shift registers:     0
-   Number of PIO sites used: 18 + 4(JTAG) out of 115 (19%)
+   Number of PIO sites used: 29 + 4(JTAG) out of 115 (29%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  0 out of 1 (0%)
    EFB used :       No
@@ -66,29 +66,33 @@ Mapped on:  03/04/19  17:39:29
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net KE00/sclk: 12 loads, 12 rising, 0 falling (Driver: KE00/OS00/OSCInst0 )
+     Net KE00.sclk_0: 23 loads, 23 rising, 0 falling (Driver: KE00/OS00/OSCInst0
 
-     
-   Number of Clock Enables:  0
-   Number of LSRs:  1
-     Net KE00/OS01/un1_sdiv69_RNIUOMI: 11 loads, 11 LSLICEs
+     )
+   Number of Clock Enables:  2
+     Net un1_aux88_0_o2_0_RNISVSA3: 7 loads, 0 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_3_RNI5ON71: 3 loads, 3 LSLICEs
+   Number of LSRs:  3
+     Net un1_outdiv_0_sqmuxa_1_3_RNISEPF1: 2 loads, 2 LSLICEs
+     Net KE01/fb: 1 loads, 1 LSLICEs
+     Net KE00/OS01/un1_sdiv69_RNIT43S: 11 loads, 11 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net KE00/OS01/un1_sdiv69_RNIUOMI: 11 loads
-     Net KE00/OS01/sdiv[20]: 7 loads
-     Net KE00/OS01/sdiv[16]: 6 loads
-     Net KE00/OS01/sdiv[17]: 6 loads
-     Net KE00/OS01/sdiv[18]: 6 loads
-     Net KE00/OS01/sdiv[19]: 6 loads
-     Net cdiv_c[0]: 5 loads
-     Net cdiv_c[1]: 5 loads
-     Net KE00/OS01/sdiv63_1: 5 loads
-     Net KE00/OS01/sdiv68_3: 5 loads
+     Net outr0_c[0]: 14 loads
+     Net outr0_c[3]: 14 loads
+     Net outr0_c[2]: 13 loads
+     Net KE00/OS01/un1_sdiv69_RNIT43S: 11 loads
+     Net inkey0_c[1]: 8 loads
+     Net inkey0_c[2]: 8 loads
+     Net inkey0_c[3]: 8 loads
+     Net cdiv_c[0]: 7 loads
+     Net cdiv_c[4]: 7 loads
+     Net un1_aux88_0_o2_0_RNISVSA3: 7 loads
 
 
 
 
-   Number of warnings:  5
+   Number of warnings:  0
    Number of errors:    0
      
 
@@ -97,16 +101,7 @@ Mapped on:  03/04/19  17:39:29
 
 <A name="mrp_dwe"></A><B><U><big>Design Errors/Warnings</big></U></B>
 
-WARNING - map: IO buffer missing for top level port inkey0[3:0](3)...logic will
-     be discarded.
-WARNING - map: IO buffer missing for top level port inkey0[3:0](2)...logic will
-     be discarded.
-WARNING - map: IO buffer missing for top level port inkey0[3:0](1)...logic will
-     be discarded.
-WARNING - map: IO buffer missing for top level port inkey0[3:0](0)...logic will
-     be discarded.
-WARNING - map: IO buffer missing for top level port en0...logic will be
-     discarded.
+   No errors or warnings present.
 
 
 
@@ -118,22 +113,34 @@ WARNING - map: IO buffer missing for top level port en0...logic will be
 +---------------------+-----------+-----------+------------+
 | outr0[0]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| cdiv[0]             | INPUT     | LVCMOS25  |            |
+| inkey0[0]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| outcoder0[7]        | OUTPUT    | LVCMOS25  |            |
+| disp[5]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| outcoder0[6]        | OUTPUT    | LVCMOS25  |            |
+| disp[4]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| outcoder0[5]        | OUTPUT    | LVCMOS25  |            |
+| disp[3]             | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| outcoder0[4]        | OUTPUT    | LVCMOS25  |            |
+| disp[2]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| disp[1]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| disp[0]             | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
 
+| outcoder0[7]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
-| outcoder0[3]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[6]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
-| outcoder0[2]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[5]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
-| outcoder0[1]        | OUTPUT    | LVCMOS25  |            |
+| outcoder0[4]        | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outcoder0[3]        | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outcoder0[2]        | OUTPUT    | LVCMOS25  | OUT        |
++---------------------+-----------+-----------+------------+
+| outcoder0[1]        | OUTPUT    | LVCMOS25  | OUT        |
 +---------------------+-----------+-----------+------------+
 | outcoder0[0]        | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -145,6 +152,8 @@ WARNING - map: IO buffer missing for top level port en0...logic will be
 +---------------------+-----------+-----------+------------+
 | outr0[1]            | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
+| en0                 | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
 | cdiv[4]             | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | cdiv[3]             | INPUT     | LVCMOS25  |            |
@@ -152,6 +161,14 @@ WARNING - map: IO buffer missing for top level port en0...logic will be
 | cdiv[2]             | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | cdiv[1]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| cdiv[0]             | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inkey0[3]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inkey0[2]           | INPUT     | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| inkey0[1]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 
 
@@ -163,7 +180,12 @@ Block KE00/GND undriven or does not drive anything - clipped.
 Block KE00/VCC undriven or does not drive anything - clipped.
 Block KE00/OS00/VCC undriven or does not drive anything - clipped.
 Block KE00/OS01/VCC undriven or does not drive anything - clipped.
+Block KE01/VCC undriven or does not drive anything - clipped.
+Block KE01/GND undriven or does not drive anything - clipped.
+Block KE02/GND undriven or does not drive anything - clipped.
+Block KE02/VCC undriven or does not drive anything - clipped.
 Signal KE00/OS00/GND undriven or does not drive anything - clipped.
+
 Signal KE00/OS01/GND undriven or does not drive anything - clipped.
 Signal KE00/OS00/OSCInst0_SEDSTDBY undriven or does not drive anything -
      clipped.
@@ -186,11 +208,10 @@ OSC Summary
 -----------
 
 OSC 1:                                     Pin/Node Value
-
   OSC Instance Name:                                KE00/OS00/OSCInst0
   OSC Type:                                         OSCH
   STDBY Input:                                      NONE
-  OSC Output:                              NODE     KE00/sclk
+  OSC Output:                              NODE     KE00.sclk_0
   OSC Nominal Frequency (MHz):                      2.08
 
 
@@ -208,29 +229,8 @@ Instance Name: KE00/OS00/OSCInst0
 
    Total CPU Time: 0 secs  
    Total REAL Time: 0 secs  
-   Peak Memory Usage: 33 MB
+   Peak Memory Usage: 56 MB
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

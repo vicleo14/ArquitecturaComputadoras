@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version M-2017.03L-SP1-1
 #--  Project file D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\run_options.txt
-#--  Written on Mon Mar  4 17:39:21 2019
+#--  Written on Mon Mar  4 23:07:42 2019
 
 
 #project files

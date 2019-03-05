@@ -12,20 +12,24 @@ entity topkey00 is
 		en0: in std_logic;
 		outr0:inout std_logic_vector(3 downto 0);
 		clk00:inout std_logic;
-		outcoder0: out std_logic_vector(7 downto 0)
+		outcoder0: out std_logic_vector(7 downto 0);
+		disp: out std_logic_vector(5 downto 0)
 	);
 end entity;
 
 architecture topkey0 of topkey00 is
+signal ens: std_logic;
+	
 begin
-
+	ens<=en0;
+	disp<="111110";
 	KE00:topdiv00 port map(
 		cdiv0=>cdiv,
 		clk0=>clk00
 	);
 	
 	KE01:contring00 port map(
-		enr=>en0,
+		enr=>ens,
 		clkr=>clk00,
 		outr=>outr0
 	);

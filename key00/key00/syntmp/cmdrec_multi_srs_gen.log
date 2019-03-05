@@ -1,7 +1,7 @@
 C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  topkey00  -multisrs  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synwork\key00_key00_comp.srs  -osyn  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synwork\key00_key00_mult.srs  -log  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synlog\key00_key00_multi_srs_gen.srr 
 relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top topkey00 -multisrs ..\synwork\key00_key00_comp.srs -osyn ..\synwork\key00_key00_mult.srs -log ..\synlog\key00_key00_multi_srs_gen.srr
-rc:0 success:1 runtime:0
-file:..\synwork\key00_key00_comp.srs|io:i|time:1551742762|size:9663|exec:0|csum:0A4029C6A6AE750BB08FD4DB3D2434D8
-file:..\synwork\key00_key00_mult.srs|io:o|time:1551742763|size:3057|exec:0|csum:
-file:..\synlog\key00_key00_multi_srs_gen.srr|io:o|time:1551742763|size:409|exec:0|csum:
+rc:0 success:1 runtime:1
+file:..\synwork\key00_key00_comp.srs|io:i|time:1551762463|size:9857|exec:0|csum:DEA0B022330E9638EB8D5C6B7D490ACF
+file:..\synwork\key00_key00_mult.srs|io:o|time:1551762465|size:3150|exec:0|csum:
+file:..\synlog\key00_key00_multi_srs_gen.srr|io:o|time:1551762465|size:536|exec:0|csum:
 file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501913790|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

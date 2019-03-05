@@ -17,7 +17,6 @@
 @N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\div00.vhdl":88:6:88:11|Removing redundant assignment.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
-@N: CL159 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd":9:2:9:5|Input clkr is unused.
 @N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":21:2:21:3|Register bit outcoderc(0) is always 1.
 @N|Running in 64-bit mode
 
