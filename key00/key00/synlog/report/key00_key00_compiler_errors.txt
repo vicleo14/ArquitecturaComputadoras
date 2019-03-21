@@ -1,0 +1,6 @@
+@E: CL219 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":17:7:17:7|Multiple non-tristate drivers for net s in coder00
+@E: CL229 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":17:7:17:7|Unresolved tristate drivers for net s in coder00
+@E: MF420 |Netlist read from file D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synwork\layer0.srs failed
+@E: Could not find specified top level topkey00 (library: work, cell: topkey00)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+

@@ -8,8 +8,8 @@ file:..\source\osc00.vhdl|io:i|time:1550532685|size:501|exec:0|csum:24065153F876
 file:..\source\packagediv00.vhdl|io:i|time:1550611073|size:337|exec:0|csum:CEEC647C41F1C41388FE6DC7197D7712
 file:..\source\topdiv00.vhdl|io:i|time:1551216685|size:418|exec:0|csum:E1FEB281333D8E6B004925ED74158DF9
 file:..\..\contring00.vhd|io:i|time:1551761520|size:663|exec:0|csum:4CF4D0BF0BD5D62BCD5940C31A07E111
-file:..\..\coder00.vhdl|io:i|time:1551762459|size:3007|exec:0|csum:500AD9FD1FCE41AFEBD5294E99CC7038
-file:..\..\packagetopkey00.vhd|io:i|time:1551742366|size:590|exec:0|csum:774523305FFF0D94353F09FA783F6DF0
-file:..\..\topkey00.vhd|io:i|time:1551820712|size:882|exec:0|csum:B04D289F9101E75E1911E13A1BCA3DC7
-file:..\syntax.log|io:o|time:1551820721|size:1015|exec:0|csum:
+file:..\..\coder00.vhdl|io:i|time:1553165526|size:5787|exec:0|csum:B2A492D69112972FCF586F097DB3E129
+file:..\..\packagetopkey00.vhd|io:i|time:1551999025|size:592|exec:0|csum:72591A872EE15B60641BDF5C6F4DD9BB
+file:..\..\topkey00.vhd|io:i|time:1551999015|size:884|exec:0|csum:FF39A2D43E31C6DD49DD30C98F646EE8
+file:..\syntax.log|io:o|time:1553165532|size:1015|exec:0|csum:
 file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501913710|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

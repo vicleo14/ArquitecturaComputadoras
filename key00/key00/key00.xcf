@@ -20,8 +20,8 @@
 				<BScanVal>0</BScanVal>
 			</Bypass>
 			<File>D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/key00/key00/key00_key00.jed</File>
-			<FileTime>03/05/19 15:19:48</FileTime>
-			<JedecChecksum>0xA400</JedecChecksum>
+			<FileTime>03/21/19 04:52:34</FileTime>
+			<JedecChecksum>0x37ED</JedecChecksum>
 			<Operation>FLASH Erase,Program,Verify</Operation>
 			<Option>
 				<SVFVendor>JTAG STANDARD</SVFVendor>

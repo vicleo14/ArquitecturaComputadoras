@@ -13,7 +13,7 @@ entity topkey00 is
 		outr0:inout std_logic_vector(3 downto 0);
 		outrled0:inout std_logic_vector(3 downto 0);
 		clk00:inout std_logic;
-		outcoder0: out std_logic_vector(7 downto 0);
+		outcoder0: inout std_logic_vector(7 downto 0);
 		disp: out std_logic_vector(5 downto 0)
 	);
 end entity;

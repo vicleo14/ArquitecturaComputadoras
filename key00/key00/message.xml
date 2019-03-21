@@ -22,6 +22,18 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl&quot;:17:7:17:9|Signal aux is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>9</Navigation>
+            <Navigation>Signal aux is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
             <Dynamic>CL279 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd&quot;:19:2:19:3|Pruning register bits 3 to 1 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd</Navigation>
@@ -46,12 +58,24 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl&quot;:21:2:21:3|Pruning register bit 0 of outcoderc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl&quot;:25:2:25:3|Pruning register bit 0 of vout(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
             <Navigation>CL260</Navigation>
             <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl</Navigation>
-            <Navigation>21</Navigation>
+            <Navigation>25</Navigation>
             <Navigation>2</Navigation>
-            <Navigation>21</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 0 of vout(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl&quot;:25:2:25:3|Pruning register bit 0 of outcoderc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
             <Navigation>3</Navigation>
             <Navigation>Pruning register bit 0 of outcoderc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
         </Message>

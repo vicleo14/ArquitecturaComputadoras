@@ -17,9 +17,10 @@ File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\packagetopk
 File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\topdiv00.vhdl changed - recompiling
 File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd changed - recompiling
 VHDL syntax check successful!
-File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl changed - recompiling
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd":7:7:7:14|Synthesizing work.topkey00.topkey0.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":17:7:17:9|Signal aux is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.coder00.coder0
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
 Post processing for work.contring00.contring0
@@ -42,15 +43,17 @@ Post processing for work.osch.syn_black_box
 Post processing for work.osc00.osc0
 Post processing for work.topdiv00.topdiv0
 Post processing for work.topkey00.topkey0
-@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":21:2:21:3|Register bit outcoderc(0) is always 1.
-@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":21:2:21:3|Pruning register bit 0 of outcoderc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":25:2:25:3|Register bit vout(0) is always 1.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":25:2:25:3|Pruning register bit 0 of vout(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":25:2:25:3|Register bit outcoderc(0) is always 1.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":25:2:25:3|Pruning register bit 0 of outcoderc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 79MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 79MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Mar  5 15:18:41 2019
+# Thu Mar 21 04:52:13 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -62,7 +65,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Mar  5 15:18:42 2019
+# Thu Mar 21 04:52:13 2019
 
 ###########################################################]
 @END
@@ -72,6 +75,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Tue Mar  5 15:18:42 2019
+# Thu Mar 21 04:52:14 2019
 
 ###########################################################]

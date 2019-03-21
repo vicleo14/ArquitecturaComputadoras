@@ -23,7 +23,7 @@ package packagetopkey00 is
 			clkc: in std_logic;
 			inkeyc: in std_logic_vector(3 downto 0);
 			incontc: in std_logic_vector(3 downto 0);
-			outcoderc: out std_logic_vector(7 downto 0)
+			outcoderc: inout std_logic_vector(7 downto 0)
 			
 		);
 	end component;

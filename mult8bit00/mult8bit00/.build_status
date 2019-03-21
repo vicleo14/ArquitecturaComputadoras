@@ -23,7 +23,7 @@
             <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1551209965"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1551209947"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1551821351"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
