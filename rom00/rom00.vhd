@@ -17,19 +17,22 @@ end entity;
 architecture rom0 of rom00 is
 
 type arrayrom is array(0 to 31) of std_logic_vector(6 downto 0);
-constant wordrom: arrayrom:=("0001000",--A
-							"0000001",--0
+constant wordrom: arrayrom:=("0000001",--0
 							"1001111",--1
 							"0010010",--2
 							"0000110",--3
-							"1001011",--4
+							"1001100",--4
 							"0100100",--5
-							"0000100",--9
-							"0000000",--8
-							"0001111",--7
 							"0100000",--6
-							"0100100",--5
-							others=>"1111111");
+							"0001111",--7
+							"0000000",--8
+							"0000100",--9
+							"0001000",--A
+							"1100000",--b
+							"0110001",--C
+							"1000010",--d
+							"0110000",--E
+							others=>"0111000");
 
 begin
 	prom: process(clkro)

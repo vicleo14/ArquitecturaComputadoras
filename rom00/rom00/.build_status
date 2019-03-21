@@ -6,31 +6,37 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1553210909"/>
         </Milestone>
-        <Milestone name="Map" build_result="0" build_time="0">
-            <Task name="Map" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="Map" build_result="2" build_time="1553210896">
+            <Task name="Map" build_result="2" update_result="0" update_time="1553210896"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="0" build_time="0">
-            <Task name="PAR" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="PAR" build_result="2" build_time="1553210905">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1553210905"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="0" build_time="0">
-            <Task name="Synplify_Synthesis" build_result="0" update_result="2" update_time="0"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1553210829">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1553210829"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1553010754"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1553210816"/>
             <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
             <Task name="SSO" build_result="0" update_result="2" update_time="0"/>
             <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
             <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="0" build_time="0">
-            <Task name="Translate" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="Translate" build_result="2" build_time="1553210830">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1553210830"/>
         </Milestone>
+        <Report name="rom00_rom00.bgn" last_build_time="1553210909" last_build_size="4281"/>
+        <Report name="rom00_rom00.edi" last_build_time="1553210828" last_build_size="81259"/>
+        <Report name="rom00_rom00.jed" last_build_time="1553210909" last_build_size="1465255"/>
+        <Report name="rom00_rom00.ncd" last_build_time="1553210905" last_build_size="98217"/>
+        <Report name="rom00_rom00.ngd" last_build_time="1553210830" last_build_size="77994"/>
+        <Report name="rom00_rom00_map.ncd" last_build_time="1553210896" last_build_size="70096"/>
     </Strategy>
 </BuildStatus>

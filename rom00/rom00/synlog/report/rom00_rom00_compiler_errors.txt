@@ -1,0 +1,2 @@
+@E: CD326 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\rom00\TOPROM00.vhd":29:1:29:4|Port indirro of entity work.rom00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+
