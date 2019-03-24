@@ -7,14 +7,14 @@ entity coder00 is
 	port(
 		clkc: in std_logic;
 		inkeyc: in std_logic_vector(3 downto 0);
-		incontc: in std_logic_vector(3 downto 0);
+		incontc: in std_logic_vector(4 downto 0);
 		outcoderc: inout std_logic_vector(7 downto 0)
 		
 	);
 end entity;
 
 architecture coder0 of coder00 is
-signal aux:std_logic_vector(3 downto 0);
+signal auxk:std_logic_vector(3 downto 0);
 begin
 	
 	
@@ -25,7 +25,7 @@ begin
 		if(clkc'event and clkc='1') then
 					
 				case incontc is
-					when "1000"=>
+					when "01000"=>
 						case inkeyc is
 							when "0000"=>
 								if(aux='0' and aux2='0' and aux3='0' and aux4='0') then
@@ -80,7 +80,7 @@ begin
 						end case;
 						
 						
-					when "0100"=>
+					when "00100"=>
 						case inkeyc is
 							when "0000"=>
 							if(aux='0' and aux1='0' and aux3='0' and aux4='0') then
@@ -136,7 +136,7 @@ begin
 						
 						
 					
-					when "0010"=>
+					when "00010"=>
 					
 					
 						case inkeyc is
@@ -190,7 +190,7 @@ begin
 							when others=>null;
 						end case;
 					
-					when "0001"=>
+					when "00001"=>
 						case inkeyc is
 							when "0000"=>
 								if(aux='0' and aux1='0' and aux2='0' and aux3='0') then

@@ -1,10 +1,10 @@
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd":7:7:7:14|Synthesizing work.topkey00.topkey0.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
-@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":17:7:17:9|Signal aux is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":17:7:17:10|Signal auxk is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.coder00.coder0
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
 Post processing for work.contring00.contring0
-@W: CL279 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd":19:2:19:3|Pruning register bits 3 to 1 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd":19:2:19:3|Pruning register bits 4 to 1 of scont(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
 @N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\div00.vhdl":32:6:32:11|Removing redundant assignment.

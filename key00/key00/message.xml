@@ -22,26 +22,26 @@
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CD638 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl&quot;:17:7:17:9|Signal aux is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Dynamic>CD638 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl&quot;:17:7:17:10|Signal auxk is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
             <Navigation>CD638</Navigation>
             <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl</Navigation>
             <Navigation>17</Navigation>
             <Navigation>7</Navigation>
             <Navigation>17</Navigation>
-            <Navigation>9</Navigation>
-            <Navigation>Signal aux is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Signal auxk is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>
             <Severity>Warning</Severity>
-            <Dynamic>CL279 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd&quot;:19:2:19:3|Pruning register bits 3 to 1 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Dynamic>CL279 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd&quot;:19:2:19:3|Pruning register bits 4 to 1 of scont(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
             <Navigation>CL279</Navigation>
             <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd</Navigation>
             <Navigation>19</Navigation>
             <Navigation>2</Navigation>
             <Navigation>19</Navigation>
             <Navigation>3</Navigation>
-            <Navigation>Pruning register bits 3 to 1 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+            <Navigation>Pruning register bits 4 to 1 of scont(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
         </Message>
         <Message>
             <ID>2019991</ID>

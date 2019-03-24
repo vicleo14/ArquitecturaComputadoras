@@ -17,14 +17,14 @@ File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\packagetopk
 File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\topdiv00.vhdl changed - recompiling
 File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd changed - recompiling
 VHDL syntax check successful!
-File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd changed - recompiling
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd":7:7:7:14|Synthesizing work.topkey00.topkey0.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
-@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":17:7:17:9|Signal aux is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":17:7:17:10|Signal auxk is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.coder00.coder0
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
 Post processing for work.contring00.contring0
-@W: CL279 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd":19:2:19:3|Pruning register bits 3 to 1 of scont(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\contring00.vhd":19:2:19:3|Pruning register bits 4 to 1 of scont(4 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
 @N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\div00.vhdl":32:6:32:11|Removing redundant assignment.
@@ -53,7 +53,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Mar 21 04:52:13 2019
+# Sun Mar 24 08:46:29 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -65,7 +65,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Mar 21 04:52:13 2019
+# Sun Mar 24 08:46:29 2019
 
 ###########################################################]
 @END
@@ -75,6 +75,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Mar 21 04:52:14 2019
+# Sun Mar 24 08:46:30 2019
 
 ###########################################################]

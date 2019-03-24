@@ -16,13 +16,13 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  03/21/19  04:52:20
+Mapped on:  03/24/19  08:49:44
 
 Design Summary
 --------------
 
-   Number of registers:     45 out of  7209 (1%)
-      PFU registers:           38 out of  6864 (1%)
+   Number of registers:     46 out of  7209 (1%)
+      PFU registers:           39 out of  6864 (1%)
       PIO registers:            7 out of   345 (2%)
    Number of SLICEs:        88 out of  3432 (3%)
       SLICEs as Logic/ROM:     88 out of  3432 (3%)
@@ -33,7 +33,7 @@ Design Summary
       Number used as distributed RAM:     0
       Number used as ripple logic:       22
       Number used as shift registers:     0
-   Number of PIO sites used: 33 + 4(JTAG) out of 115 (32%)
+   Number of PIO sites used: 34 + 4(JTAG) out of 115 (33%)
    Number of block RAMs:  0 out of 26 (0%)
    Number of GSRs:  0 out of 1 (0%)
    EFB used :       No
@@ -59,41 +59,41 @@ Design Summary
       2. Number of logic LUT4s does not include count of distributed RAM and
      ripple logic.
    Number of clocks:  1
-     Net KE00.sclk_0: 30 loads, 30 rising, 0 falling (Driver: KE00/OS00/OSCInst0
+     Net KE00.sclk_0: 31 loads, 31 rising, 0 falling (Driver: KE00/OS00/OSCInst0
 
                                     Page 1
 
 
 
 
-Design:  topkey00                                      Date:  03/21/19  04:52:20
+Design:  topkey00                                      Date:  03/24/19  08:49:44
 
 Design Summary (cont)
 ---------------------
      )
    Number of Clock Enables:  6
-     Net un1_outcoderc_0_sqmuxa_i_o5_0_RNIGQOA1: 7 loads, 0 LSLICEs
-     Net un1_outdiv_0_sqmuxa_1_2_RNI8FSO: 3 loads, 3 LSLICEs
-     Net KE02/un1_outcoderc_0_sqmuxa_i_o5_0_RNI0TFP1: 4 loads, 4 LSLICEs
+     Net un1_outcoderc_0_sqmuxa_i_0_o3_1_RNIAIPD1: 7 loads, 0 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_2_RNI8FSO: 4 loads, 4 LSLICEs
+     Net KE02/un1_outcoderc_0_sqmuxa_i_0_o3_1_RNIPAPI1: 4 loads, 4 LSLICEs
      Net KE02/aux4_RNO: 1 loads, 1 LSLICEs
      Net KE02/aux3_RNO: 1 loads, 1 LSLICEs
      Net KE02/aux2_RNO: 1 loads, 1 LSLICEs
    Number of LSRs:  4
-     Net un1_outcoderc_0_sqmuxa_i_a5_RNI3TMB2: 7 loads, 0 LSLICEs
-     Net en0_pad_RNIV5U01: 2 loads, 2 LSLICEs
+     Net un1_outcoderc_0_sqmuxa_i_0_o3_1_RNI4QUV1: 7 loads, 0 LSLICEs
+     Net en0_pad_RNIV5U01: 3 loads, 3 LSLICEs
      Net KE01/fb: 1 loads, 1 LSLICEs
      Net KE00/OS01/un1_sdiv69_RNIUOMI: 11 loads, 11 LSLICEs
    Number of nets driven by tri-state buffers:  0
    Top 10 highest fanout non-clock nets:
-     Net outr0_c[2]: 23 loads
-     Net inkey0_c[3]: 21 loads
-     Net inkey0_c[0]: 20 loads
-     Net inkey0_c[2]: 19 loads
-     Net outr0_c[1]: 19 loads
-     Net outr0_c[3]: 19 loads
-     Net inkey0_c[1]: 14 loads
-     Net KE02/aux1: 13 loads
+     Net inkey0_c[3]: 22 loads
+     Net outr0_c[2]: 22 loads
+     Net outr0_c[0]: 20 loads
+     Net inkey0_c[0]: 19 loads
+     Net inkey0_c[1]: 18 loads
+     Net outr0_c[3]: 18 loads
+     Net KE02/aux1: 14 loads
      Net KE02/aux2: 13 loads
+     Net outr0_c[1]: 13 loads
      Net KE02/aux4: 12 loads
 
 
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  topkey00                                      Date:  03/21/19  04:52:20
+Design:  topkey00                                      Date:  03/24/19  08:49:44
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -158,6 +158,8 @@ IO (PIO) Attributes (cont)
 | outcoder0[0]        | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | clk00               | OUTPUT    | LVCMOS25  |            |
++---------------------+-----------+-----------+------------+
+| outrled0[4]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | outrled0[3]         | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
@@ -190,15 +192,17 @@ IO (PIO) Attributes (cont)
 | inkey0[2]           | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | inkey0[1]           | INPUT     | LVCMOS25  |            |
-+---------------------+-----------+-----------+------------+
-
 
                                     Page 3
 
 
 
 
-Design:  topkey00                                      Date:  03/21/19  04:52:20
+Design:  topkey00                                      Date:  03/24/19  08:49:44
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+------------+
 
 Removed logic
 -------------
@@ -253,10 +257,6 @@ Run Time and Memory Usage
    Total REAL Time: 0 secs  
    Peak Memory Usage: 57 MB
         
-
-
-
-
 
 
                                     Page 4

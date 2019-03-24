@@ -1,13 +1,13 @@
 C:\lscc\diamond\3.10_x64\synpbase\bin64\m_gen_lattice.exe  -prodtype  synplify_pro  -encrypt  -pro  -rundir  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00   -part LCMXO2_7000HE  -package TG144C  -grade -5    -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synlog\report\key00_key00_premap.xml  -top_level_module  topkey00  -oedif  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\key00_key00.edi  -conchk_prepass  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\key00_key00_cck.rpt   -freq 1.000   D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synwork\key00_key00_mult.srs  -flow prepass  -gcc_prepass  -osrd  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synwork\key00_key00_prem.srd  -devicelib  C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v  -devicelib  C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v  -ologparam  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\syntmp\key00_key00.plg  -osyn  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synwork\key00_key00_prem.srd  -prjdir  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\  -prjname  proj_1  -log  D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\synlog\key00_key00_premap.srr  -jobname  "premap" 
 relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\m_gen_lattice.exe -prodtype synplify_pro -encrypt -pro -rundir ..\..\key00 -part LCMXO2_7000HE -package TG144C -grade -5 -maxfan 1000 -pipe -forcenogsr -fixgatedclocks 1 -fixgeneratedclocks 1 -RWCheckOnRam 1 -use_rename_in_edif 1 -Write_declared_clocks_only 1 -summaryfile ..\synlog\report\key00_key00_premap.xml -top_level_module topkey00 -oedif ..\key00_key00.edi -conchk_prepass ..\key00_key00_cck.rpt -freq 1.000 ..\synwork\key00_key00_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\key00_key00_prem.srd -devicelib C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v -devicelib C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v -ologparam key00_key00.plg -osyn ..\synwork\key00_key00_prem.srd -prjdir ..\ -prjname proj_1 -log ..\synlog\key00_key00_premap.srr -jobname "premap"
 rc:1 success:1 runtime:1
-file:..\key00_key00.edi|io:o|time:1553165266|size:145850|exec:0|csum:
-file:..\key00_key00_cck.rpt|io:o|time:1553165536|size:2821|exec:0|csum:
-file:..\synwork\key00_key00_mult.srs|io:i|time:1553165535|size:3319|exec:0|csum:20EAE48A028484B441D7BF7FA0552E51
-file:..\synwork\key00_key00_prem.srd|io:o|time:1553165535|size:15234|exec:0|csum:
+file:..\key00_key00.edi|io:o|time:1553438578|size:137989|exec:0|csum:
+file:..\key00_key00_cck.rpt|io:o|time:1553438792|size:2836|exec:0|csum:
+file:..\synwork\key00_key00_mult.srs|io:i|time:1553438791|size:3323|exec:0|csum:EDF4E05638F81F32B31642CE13C5BCA4
+file:..\synwork\key00_key00_prem.srd|io:o|time:1553438792|size:14616|exec:0|csum:
 file:C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.v|io:i|time:1501917816|size:54295|exec:0|csum:D5667017EB528EBD3C317EFCC9D2C19B
 file:C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\pmi_def.v|io:i|time:1501917816|size:40584|exec:0|csum:530CC5906D70AB3C6A4AA0861AC94BDF
-file:key00_key00.plg|io:o|time:1553165535|size:0|exec:0|csum:
-file:..\synwork\key00_key00_prem.srd|io:o|time:1553165535|size:15234|exec:0|csum:
-file:..\synlog\key00_key00_premap.srr|io:o|time:1553165536|size:4148|exec:0|csum:
+file:key00_key00.plg|io:o|time:1553438791|size:0|exec:0|csum:
+file:..\synwork\key00_key00_prem.srd|io:o|time:1553438792|size:14616|exec:0|csum:
+file:..\synlog\key00_key00_premap.srr|io:o|time:1553438792|size:4148|exec:0|csum:
 file:C:\lscc\diamond\3.10_x64\synpbase\bin64\m_gen_lattice.exe|io:i|time:1501920714|size:29299200|exec:1|csum:5C77397B47E7811864C32F4FC7D86D2F
