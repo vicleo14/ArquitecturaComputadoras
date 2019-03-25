@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="lcd00" device="LCMXO2-7000HE-5FG484C" default_implementation="projectlcd00">
+    <Options/>
+    <Implementation title="projectlcd00" dir="projectlcd00" description="projectlcd00" synthesis="synplify" default_strategy="Strategy1">
+        <Options/>
+        <Source name="lcd00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="lcd001.sty"/>
+</BaliProject>
