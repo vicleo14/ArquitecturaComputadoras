@@ -16,7 +16,7 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   5
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.0.111.2
-Mapped on:  03/24/19  08:49:44
+Mapped on:  03/24/19  14:43:14
 
 Design Summary
 --------------
@@ -66,7 +66,7 @@ Design Summary
 
 
 
-Design:  topkey00                                      Date:  03/24/19  08:49:44
+Design:  topkey00                                      Date:  03/24/19  14:43:14
 
 Design Summary (cont)
 ---------------------
@@ -132,7 +132,7 @@ IO (PIO) Attributes
 
 
 
-Design:  topkey00                                      Date:  03/24/19  08:49:44
+Design:  topkey00                                      Date:  03/24/19  14:43:14
 
 IO (PIO) Attributes (cont)
 --------------------------
@@ -198,7 +198,7 @@ IO (PIO) Attributes (cont)
 
 
 
-Design:  topkey00                                      Date:  03/24/19  08:49:44
+Design:  topkey00                                      Date:  03/24/19  14:43:14
 
 IO (PIO) Attributes (cont)
 --------------------------

@@ -17,7 +17,7 @@ File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\packagetopk
 File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\key00\source\topdiv00.vhdl changed - recompiling
 File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd changed - recompiling
 VHDL syntax check successful!
-File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl changed - recompiling
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\topkey00.vhd":7:7:7:14|Synthesizing work.topkey00.topkey0.
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":6:7:6:13|Synthesizing work.coder00.coder0.
 @W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\key00\coder00.vhdl":17:7:17:10|Signal auxk is undriven. Either assign the signal a value or remove the signal declaration.
@@ -53,7 +53,7 @@ At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memor
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Mar 24 08:46:29 2019
+# Sun Mar 24 14:43:08 2019
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
@@ -65,7 +65,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Mar 24 08:46:29 2019
+# Sun Mar 24 14:43:08 2019
 
 ###########################################################]
 @END
@@ -75,6 +75,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Sun Mar 24 08:46:30 2019
+# Sun Mar 24 14:43:08 2019
 
 ###########################################################]

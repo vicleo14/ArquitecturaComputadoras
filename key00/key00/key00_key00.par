@@ -4,7 +4,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Sun Mar 24 08:49:45 2019
+Sun Mar 24 14:43:15 2019
 
 C:/lscc/diamond/3.10_x64/ispfpga\bin\nt64\par -f key00_key00.p2t
 key00_key00_map.ncd key00_key00.dir key00_key00.prf -gui -msgset
@@ -16,16 +16,16 @@ Preference file: key00_key00.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            463.545      0            0.306        0            10           Success
+5_1   *      0            463.545      0            0.306        0            09           Success
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 10 secs 
+Total (real) run time for 1-seed: 9 secs 
 
 par done!
 
 Lattice Place and Route Report for Design "key00_key00_map.ncd"
-Sun Mar 24 08:49:45 2019
+Sun Mar 24 14:43:15 2019
 
 PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
 Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/key00/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF key00_key00_map.ncd key00_key00.dir/5_1.ncd key00_key00.prf
@@ -135,7 +135,7 @@ Starting router resource preassignment
 
 Completed router resource preassignment. Real time: 8 secs 
 
-Start NBR router at 08:49:53 03/24/19
+Start NBR router at 14:43:23 03/24/19
 
 *****************************************************************
 Info: NBR allows conflicts(one node used by more than one signal)
@@ -150,9 +150,9 @@ Note: NBR uses a different method to calculate timing slacks. The
       your design.                                               
 *****************************************************************
 
-Start NBR special constraint process at 08:49:53 03/24/19
+Start NBR special constraint process at 14:43:23 03/24/19
 
-Start NBR section for initial routing at 08:49:53 03/24/19
+Start NBR section for initial routing at 14:43:23 03/24/19
 Level 4, iteration 1
 25(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 8 secs 
@@ -160,31 +160,31 @@ Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time:
 Info: Initial congestion level at 75% usage is 0
 Info: Initial congestion area  at 75% usage is 0 (0.00%)
 
-Start NBR section for normal routing at 08:49:53 03/24/19
+Start NBR section for normal routing at 14:43:23 03/24/19
 Level 4, iteration 1
 11(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
 Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 8 secs 
 Level 4, iteration 2
 3(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 9 secs 
+Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 8 secs 
 Level 4, iteration 3
 1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 9 secs 
+Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 8 secs 
 Level 4, iteration 4
 1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 9 secs 
+Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 8 secs 
 Level 4, iteration 5
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 9 secs 
+Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 8 secs 
 
-Start NBR section for setup/hold timing optimization with effort level 3 at 08:49:54 03/24/19
+Start NBR section for setup/hold timing optimization with effort level 3 at 14:43:23 03/24/19
 
-Start NBR section for re-routing at 08:49:54 03/24/19
+Start NBR section for re-routing at 14:43:23 03/24/19
 Level 4, iteration 1
 0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
-Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 9 secs 
+Estimated worst slack/total negative slack<setup>: 463.545ns/0.000ns; real time: 8 secs 
 
-Start NBR section for post-routing at 08:49:54 03/24/19
+Start NBR section for post-routing at 14:43:23 03/24/19
 
 End NBR router with 0 unrouted connection
 
@@ -223,7 +223,7 @@ PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
 PAR_SUMMARY::Number of errors = 0
 
 Total CPU  time to completion: 9 secs 
-Total REAL time to completion: 10 secs 
+Total REAL time to completion: 9 secs 
 
 par done!
 

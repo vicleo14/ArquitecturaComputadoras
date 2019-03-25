@@ -1,0 +1,2 @@
+@E: CD326 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\ram01\topram00.vhd":45:1:45:4|Port rwc of entity work.coder00 is unconnected. If a port needs to remain unconnected, use the keyword open.
+
