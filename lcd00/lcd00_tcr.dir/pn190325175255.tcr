@@ -1,0 +1,9 @@
+#Start recording tcl command: 3/25/2019 16:47:59
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd00; Project name: lcd00
+prj_project new -name "lcd00" -impl "projectlcd00" -dev LCMXO2-7000HE-5FG484C -synthesis "synplify"
+prj_project save
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd00/lcdContConfig00.vhd"
+file copy -force -- "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/div00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/osc00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/packagediv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/topdiv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd00/projectlcd00/source"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd00/projectlcd00/source/div00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd00/projectlcd00/source/osc00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd00/projectlcd00/source/packagediv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd00/projectlcd00/source/topdiv00.vhdl"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd00/lcdConfig00.vhd"
+#Stop recording: 3/25/2019 17:52:55

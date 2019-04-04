@@ -1,0 +1,8 @@
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd00\lcdData00.vhd":38:2:38:3|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd00\lcdConfig00.vhd":27:4:27:5|Removing register 'rsc' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd00\lcdConfig00.vhd":27:4:27:5|Removing register 'rwc' because it is only assigned 0 or its original value.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd00\lcdConfig00.vhd":27:4:27:5|Pruning register bit 6 of outCommandc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd00\lcdContData00.vhd":28:2:28:3|Removing register 'RWcd' because it is only assigned 0 or its original value.
+@W: CL158 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd00\toplcd00.vhd":18:2:18:10|Inout outFlagd0 is unused
+
