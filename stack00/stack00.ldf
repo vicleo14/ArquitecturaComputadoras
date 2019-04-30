@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="stack00" device="LCMXO2-7000HE-5TG144C" default_implementation="stack00">
+    <Options/>
+    <Implementation title="stack00" dir="stack00" description="stack00" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="topstack00"/>
+        <Source name="stack00/source/div00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="stack00/source/osc00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="stack00/source/packagediv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="stack00/source/topdiv00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="stack00/source/contRead00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="stack00/source/mux00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="stack00/source/coder00.vhdl" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="stack00/source/contring00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="stack00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="packagestack00.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="topstack00.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="topstack00"/>
+        </Source>
+        <Source name="stack00.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="stack00/stack00.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="topstack00.pcf" type="Power Calculator" type_short="PCF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="stack001.sty"/>
+</BaliProject>

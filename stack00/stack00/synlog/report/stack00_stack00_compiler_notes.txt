@@ -1,0 +1,32 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\topstack00.vhd":7:7:7:16|Top entity is set to topstack00.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\topstack00.vhd":7:7:7:16|Synthesizing work.topstack00.topstack0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\contRead00.vhd":8:7:8:16|Synthesizing work.contread00.contread0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\contRead00.vhd":36:6:36:14|Removing redundant assignment.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\mux00.vhd":6:7:6:11|Synthesizing work.mux00.mux0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00.vhd":8:7:8:13|Synthesizing work.stack00.stack0.
+@N: CL134 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00.vhd":22:8:22:16|Found RAM wordstack, depth=64, width=8
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\coder00.vhdl":56:10:56:17|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\coder00.vhdl":121:10:121:17|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\coder00.vhdl":184:10:184:17|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\coder00.vhdl":246:10:246:17|Removing redundant assignment.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":32:6:32:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":40:6:40:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":48:6:48:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":56:6:56:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":80:6:80:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\div00.vhdl":88:6:88:11|Removing redundant assignment.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\coder00.vhdl":30:2:30:3|Register bit vout(0) is always 1.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack00\stack00\source\coder00.vhdl":30:2:30:3|Register bit outcoderc(0) is always 1.
+@N|Running in 64-bit mode
+

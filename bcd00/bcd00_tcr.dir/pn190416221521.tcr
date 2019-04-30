@@ -1,0 +1,5 @@
+#Start recording tcl command: 4/16/2019 13:38:25
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00; Project name: bcd00
+prj_project open "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/bcd00.ldf"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/compadd00.vhd"
+#Stop recording: 4/16/2019 22:15:21

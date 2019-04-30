@@ -1,0 +1,11 @@
+#Start recording tcl command: 3/7/2019 17:25:29
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00; Project name: ram00
+prj_project new -name "ram00" -impl "ram0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/div00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/osc00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/packagediv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/topdiv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source/div00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source/osc00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source/packagediv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source/topdiv00.vhdl"
+prj_project save
+file copy -force -- "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/key00/contring00.vhd" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source/contring00.vhd"
+file copy -force -- "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/key00/coder00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/ram00/ram0/source/coder00.vhdl"
+#Stop recording: 3/7/2019 19:07:36

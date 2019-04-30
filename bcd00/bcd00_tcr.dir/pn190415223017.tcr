@@ -1,0 +1,12 @@
+#Start recording tcl command: 4/15/2019 16:11:26
+#Project Location: D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00; Project name: bcd00
+prj_project new -name "bcd00" -impl "bcd00" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/div00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/osc00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/packagediv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/div00VHDL/topdiv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/bcd00/source"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/bcd00/source/div00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/bcd00/source/osc00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/bcd00/source/packagediv00.vhdl" "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/bcd00/source/topdiv00.vhdl"
+prj_project save
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/init00.vhd"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/portData00.vhd"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/sus00.vhd"
+prj_src remove "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/sus00.vhd"
+prj_src add "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/bcd00/sust00.vhd"
+#Stop recording: 4/15/2019 22:30:17

@@ -1,0 +1,54 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu Apr 18 14:28:23 2019 *
+NOTE DESIGN NAME: topstack00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS clk00 : 120 : out *
+NOTE PINS cdiv00[0] : 71 : in *
+NOTE PINS outtransist0[5] : 27 : out *
+NOTE PINS outtransist0[4] : 32 : out *
+NOTE PINS outtransist0[3] : 34 : out *
+NOTE PINS outtransist0[2] : 35 : out *
+NOTE PINS outtransist0[1] : 33 : out *
+NOTE PINS outtransist0[0] : 28 : out *
+NOTE PINS outWord0[7] : 132 : out *
+NOTE PINS outWord0[6] : 133 : out *
+NOTE PINS outWord0[5] : 138 : out *
+NOTE PINS outWord0[4] : 139 : out *
+NOTE PINS outWord0[3] : 140 : out *
+NOTE PINS outWord0[2] : 141 : out *
+NOTE PINS outWord0[1] : 142 : out *
+NOTE PINS outWord0[0] : 143 : out *
+NOTE PINS outcontR0[4] : 9 : out *
+NOTE PINS outcontR0[3] : 6 : out *
+NOTE PINS outcontR0[2] : 5 : out *
+NOTE PINS outcontR0[1] : 4 : out *
+NOTE PINS outcontR0[0] : 3 : out *
+NOTE PINS outcontW0[4] : 21 : out *
+NOTE PINS outcontW0[3] : 20 : out *
+NOTE PINS outcontW0[2] : 19 : out *
+NOTE PINS outcontW0[1] : 14 : out *
+NOTE PINS outcontW0[0] : 13 : out *
+NOTE PINS outrLED0[4] : 110 : out *
+NOTE PINS outrLED0[3] : 109 : out *
+NOTE PINS outrLED0[2] : 112 : out *
+NOTE PINS outrLED0[1] : 111 : out *
+NOTE PINS outrLED0[0] : 114 : out *
+NOTE PINS outr0[3] : 82 : out *
+NOTE PINS outr0[2] : 81 : out *
+NOTE PINS outr0[1] : 78 : out *
+NOTE PINS outr0[0] : 77 : out *
+NOTE PINS outFlag0 : 127 : out *
+NOTE PINS inkey0[3] : 73 : in *
+NOTE PINS inkey0[2] : 74 : in *
+NOTE PINS inkey0[1] : 75 : in *
+NOTE PINS inkey0[0] : 76 : in *
+NOTE PINS rw0 : 49 : in *
+NOTE PINS en0 : 47 : in *
+NOTE PINS cdiv00[4] : 67 : in *
+NOTE PINS cdiv00[3] : 68 : in *
+NOTE PINS cdiv00[2] : 70 : in *
+NOTE PINS cdiv00[1] : 69 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

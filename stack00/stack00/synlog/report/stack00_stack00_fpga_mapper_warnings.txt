@@ -1,0 +1,2 @@
+@W: MO161 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\stack00\stack00.vhd":29:3:29:4|Register bit RA03.outwordSt[0] (in view view:work.topstack00(topstack0)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:RA00.OS00.osc_int"

@@ -1,0 +1,54 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+
+
+#DIVISOR DE FRECUENCIA
+LOCATE COMP "cdiv00[4]" SITE "67" ;
+LOCATE COMP "cdiv00[3]" SITE "68" ;
+LOCATE COMP "cdiv00[2]" SITE "70" ;
+LOCATE COMP "cdiv00[1]" SITE "69" ;
+LOCATE COMP "cdiv00[0]" SITE "71" ;
+
+#CLK
+LOCATE COMP "clk00" SITE "120" ;
+#funct0 y enable0
+LOCATE COMP "enable0" SITE "38" ;
+LOCATE COMP "funct0[5]" SITE "39" ;
+LOCATE COMP "funct0[4]" SITE "41" ;
+LOCATE COMP "funct0[3]" SITE "42" ;
+LOCATE COMP "funct0[2]" SITE "44" ;
+LOCATE COMP "funct0[1]" SITE "43" ;
+LOCATE COMP "funct0[0]" SITE "45" ;
+#inregRS0
+LOCATE COMP "inregRS0[7]" SITE "47" ;
+LOCATE COMP "inregRS0[6]" SITE "49" ;
+LOCATE COMP "inregRS0[5]" SITE "48" ;
+LOCATE COMP "inregRS0[4]" SITE "50" ;
+LOCATE COMP "inregRS0[3]" SITE "52" ;
+LOCATE COMP "inregRS0[2]" SITE "55" ;
+LOCATE COMP "inregRS0[1]" SITE "54" ;
+LOCATE COMP "inregRS0[0]" SITE "56" ;
+#inregRT0
+LOCATE COMP "inregRT0[7]" SITE "91" ;
+LOCATE COMP "inregRT0[6]" SITE "92" ;
+LOCATE COMP "inregRT0[5]" SITE "85" ;
+LOCATE COMP "inregRT0[4]" SITE "86" ;
+LOCATE COMP "inregRT0[3]" SITE "57" ;
+LOCATE COMP "inregRT0[2]" SITE "59" ;
+LOCATE COMP "inregRT0[1]" SITE "58" ;
+LOCATE COMP "inregRT0[0]" SITE "60" ;
+#outalu0
+LOCATE COMP "outalu0[7]" SITE "110" ;
+LOCATE COMP "outalu0[6]" SITE "109" ;
+LOCATE COMP "outalu0[5]" SITE "112" ;
+LOCATE COMP "outalu0[4]" SITE "111" ;
+LOCATE COMP "outalu0[3]" SITE "114" ;
+LOCATE COMP "outalu0[2]" SITE "113" ;
+LOCATE COMP "outalu0[1]" SITE "117" ;
+LOCATE COMP "outalu0[0]" SITE "115" ;
+
+#outFlagInst0
+LOCATE COMP "outFlagInst0" SITE "3" ;
+
+#outFlagac0
+LOCATE COMP "outFlagac0" SITE "13" ;
