@@ -26,6 +26,7 @@ signal soutr: std_logic_vector(4 downto 0);
 signal swordW: std_logic_vector(7 downto 0);
 signal swordR: std_logic_vector(7 downto 0);
 signal scont: std_logic_vector(4 downto 0);
+signal sFlagCont: std_logic;
 begin
 
 	outr0<=soutr(3 downto 0);
@@ -66,7 +67,8 @@ begin
 		indirWst=>scont,
 		indirRst=>scont,
 		inwordWst=>swordW,
-		outWordst=>swordR
+		outWordst=>swordR,
+		inFlagContSt=>sFlagCont
 	);
 	
 	ST04: mux00 port map
@@ -92,7 +94,8 @@ begin
 		enrd=>en0,
 		inFlag=>outFlag0,
 		rwrd=>rw0,
-		outContW=>scont
+		outContW=>scont,
+		outFlagCont=>sFlagCont
 	);
 
 end architecture;

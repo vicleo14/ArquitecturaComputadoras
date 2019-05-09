@@ -5,7 +5,7 @@ Post processing for work.contwrite00.contwrite0
 Post processing for work.mux00.mux0
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack01\stack01.vhd":8:7:8:13|Synthesizing work.stack01.stack0.
 Post processing for work.stack01.stack0
-@N: CL134 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack01\stack01.vhd":22:8:22:16|Found RAM wordstack, depth=64, width=8
+@N: CL134 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack01\stack01.vhd":24:8:24:16|Found RAM wordstack, depth=64, width=8
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack01\stack01\source\coder00.vhdl":8:7:8:13|Synthesizing work.coder00.coder0.
 Post processing for work.coder00.coder0
 @N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack01\stack01\source\contring00.vhd":6:7:6:16|Synthesizing work.contring00.contring0.

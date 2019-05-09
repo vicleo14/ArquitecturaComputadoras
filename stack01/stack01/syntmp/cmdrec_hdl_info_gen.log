@@ -11,9 +11,9 @@ file:..\source\mux00.vhd|io:i|time:1553473294|size:525|exec:0|csum:B637A4DFE444E
 file:..\source\osc00.vhdl|io:i|time:1550532684|size:501|exec:0|csum:24065153F876BF4F35609D1F50606F51
 file:..\source\packagediv00.vhdl|io:i|time:1550611072|size:337|exec:0|csum:CEEC647C41F1C41388FE6DC7197D7712
 file:..\source\topdiv00.vhdl|io:i|time:1550611552|size:418|exec:0|csum:E1FEB281333D8E6B004925ED74158DF9
-file:..\..\stack01.vhd|io:i|time:1555629442|size:1376|exec:0|csum:D2A1ABEBAB128008A38131B0AA87E569
-file:..\..\contWrite.vhd|io:i|time:1555628748|size:939|exec:0|csum:66EC91DEAE8137F7554F182F52EAA6C4
-file:..\..\packagestack01.vhd|io:i|time:1555617787|size:1686|exec:0|csum:67689D295BA5E1F96CEA5E2B37DB0828
-file:..\..\topstack01.vhd|io:i|time:1555627071|size:1809|exec:0|csum:59E8F2BC606D89734DC52043420A6B28
-file:..\syntax.log|io:o|time:1555629576|size:1021|exec:0|csum:
+file:..\..\stack01.vhd|io:i|time:1557386944|size:1636|exec:0|csum:1C20088FFB8AE3E217BC0931A50F97A1
+file:..\..\contWrite.vhd|io:i|time:1557384139|size:1064|exec:0|csum:C150577097EAA56E3878E59BEC205576
+file:..\..\packagestack01.vhd|io:i|time:1557384054|size:1755|exec:0|csum:52EF850CB8535D91D1DFB3298D7CA6DE
+file:..\..\topstack01.vhd|io:i|time:1557384103|size:1894|exec:0|csum:7A41592FAE2516D2F134909D8B6ADDB2
+file:..\syntax.log|io:o|time:1557386948|size:1021|exec:0|csum:
 file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501913710|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

@@ -11,7 +11,9 @@ entity contWrite00 is
 	   enrd: in std_logic;
 	   inFlag: in std_logic;
 	   rwrd: in std_logic;
-       outContW: inout std_logic_vector(4 downto 0));
+       outContW: inout std_logic_vector(4 downto 0);
+	   outFlagCont: out std_logic
+	   );
 end contWrite00;
 
 architecture contWrite0 of contWrite00 is
@@ -28,10 +30,15 @@ scontr<=(enrd)&(rwrd);
 					outContW<=(others=>'0');
 
 				when "10"=>
+				--write
 					if (inFlag='1' and outContW<"11111") then
 						outContW<=outContW+'1';
+						outFlagCont<='1';
+					else
+						outFlagCont<='0';
 					end if;
 				when "11"=>
+				--read
 					if(outContW>"00000") then
 						outContW<=outContW-'1';
 					end if;

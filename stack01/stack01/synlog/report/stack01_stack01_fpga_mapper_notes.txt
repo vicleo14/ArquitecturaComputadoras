@@ -1,7 +1,8 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "00000000" on instance ST03.wordtmp[7:0].
 @N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
-@N: FO126 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\stack01\stack01.vhd":22:8:22:16|Generating RAM ST03.wordstack[6:0]
+@N: FO126 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\stack01\stack01.vhd":24:8:24:16|Generating RAM ST03.wordstack[7:0]
 @N: FX1056 |Writing EDF file: D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\stack01\stack01\stack01_stack01.edi
 @N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
 @N: MT615 |Found clock div00|outdiv_derived_clock with period 480.77ns 

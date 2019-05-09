@@ -4,10 +4,11 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
-Thu Apr 18 18:19:46 2019
+Thu May 09 02:29:18 2019
 
 C:/lscc/diamond/3.10_x64/ispfpga\bin\nt64\par -f stack01_stack01.p2t
-stack01_stack01_map.ncd stack01_stack01.dir stack01_stack01.prf -gui
+stack01_stack01_map.ncd stack01_stack01.dir stack01_stack01.prf -gui -msgset
+D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/stack01/promote.xml
 
 
 Preference file: stack01_stack01.prf.
@@ -15,10 +16,10 @@ Preference file: stack01_stack01.prf.
 Level/       Number       Worst        Timing       Worst        Timing       Run          NCD
 Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
 ----------   --------     -----        ------       -----------  -----------  ----         ------
-5_1   *      0            466.605      0            0.308        0            12           Success
+5_1   *      0            466.331      0            0.306        0            11           Success
 
 * : Design saved.
 
-Total (real) run time for 1-seed: 13 secs 
+Total (real) run time for 1-seed: 11 secs 
 
 par done!

@@ -37,7 +37,8 @@ package packagestack01 is
 			   indirWst: inout std_logic_vector(4 downto 0);
 			   indirRst: in std_logic_vector(4 downto 0);
 			   inwordWst: in std_logic_vector(7 downto 0);
-			   outwordSt: out std_logic_vector(7 downto 0));
+			   outwordSt: out std_logic_vector(7 downto 0);
+			   inFlagContSt: in std_logic);
 		end component;
 
 
@@ -66,6 +67,7 @@ package packagestack01 is
 		   enrd: in std_logic;
 		   inFlag: in std_logic;
 		   rwrd: in std_logic;
-		   outContW: inout std_logic_vector(4 downto 0));
+		   outContW: inout std_logic_vector(4 downto 0);
+		   outFlagCont: out std_logic);
 	end component;
 end package;

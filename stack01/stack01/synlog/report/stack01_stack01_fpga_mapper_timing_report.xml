@@ -23,7 +23,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>osc00|osc_int_inferred_clock</data>
 <data>2.1 MHz</data>
-<data>75.5 MHz</data>
-<data>467.524</data>
+<data>75.9 MHz</data>
+<data>467.596</data>
 </row>
 </report_table>

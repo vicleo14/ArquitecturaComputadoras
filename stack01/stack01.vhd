@@ -14,7 +14,9 @@ entity stack01 is
 	   indirWst: inout std_logic_vector(4 downto 0);
 	   indirRst: in std_logic_vector(4 downto 0);
        inwordWst: in std_logic_vector(7 downto 0);
-	   outwordSt: out std_logic_vector(7 downto 0));
+	   outwordSt: out std_logic_vector(7 downto 0);
+	   inFlagContSt: in std_logic
+	   );
 end stack01;
 
 architecture stack0 of stack01 is
@@ -26,6 +28,8 @@ architecture stack0 of stack01 is
 		
 		pstack:process(clkst)
 		variable cont: std_logic_vector(4 downto 0):="00000";
+		variable wordTmp: std_logic_vector(7 downto 0):="00000000";
+		
 		begin
 		
 			if(clkst'event and clkst='1') then
@@ -37,15 +41,24 @@ architecture stack0 of stack01 is
 					when "10"=>
 						case inFlagst is
 							when '1'=>
-								wordstack(conv_integer(indirWst))<=inwordWst;
+								wordTmp:=inwordWst;
+								outwordSt<="11111111";
 							when others=>null;
 						end case;
+						
+						case inFlagContSt is
+							when '1'=>
+								wordstack(conv_integer(indirWst))<=wordTmp;
+							when others=>null;
+						end case;
+								
 					when "11"=>
-						if(indirRst>"00000" or indirRst="00000") then
+						if(indirRst>"00000") then
 						
 							outwordSt<=wordstack(conv_integer(indirRst));
 							
 						else
+						
 							outwordSt<="11111111";
 						end if;
 					when others=>null;

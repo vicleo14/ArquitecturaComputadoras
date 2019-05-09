@@ -6,13 +6,13 @@
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-2 gated/generated clock tree(s) driving 63 clock pin(s) of sequential element(s)
-0 instances converted, 63 sequential instances remain driven by gated/generated clocks
+2 gated/generated clock tree(s) driving 73 clock pin(s) of sequential element(s)
+0 instances converted, 73 sequential instances remain driven by gated/generated clocks
 
 ==================================================================================================== Gated/Generated Clocks ====================================================================================================
 Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance        Explanation                                                                                                                   
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       RA00.OS00.OSCInst0     OSCH                   59         RA00.OS01.outdiv       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+@K:CKID0001       RA00.OS00.OSCInst0     OSCH                   69         RA00.OS01.outdiv       Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
 @K:CKID0002       RA00.OS01.outdiv       FD1S3AX                4          ST03.wordstack_ram     No gated clock conversion method for cell cell:LUCENT.SPR16X4C                                                                
 ================================================================================================================================================================================================================================
 
