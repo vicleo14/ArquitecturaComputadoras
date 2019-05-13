@@ -1,0 +1,130 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":10:7:10:14|Top entity is set to toplcd00.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\osc00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\packagediv00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdmux00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContData01.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdmux01.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContSalto00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\packagelcd00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\topdiv00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd changed - recompiling
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":10:7:10:14|Synthesizing work.toplcd00.toplcd0.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":41:7:41:11|Signal sdata is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":43:7:43:11|Signal srwcd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":43:13:43:17|Signal srscd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":43:19:43:23|Signal sencd is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdmux01.vhd":7:7:7:14|Synthesizing work.lcdmux01.lcdmux1.
+Post processing for work.lcdmux01.lcdmux1
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdmux00.vhd":7:7:7:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd":7:7:7:15|Synthesizing work.lcddata01.lcddata1.
+Post processing for work.lcddata01.lcddata1
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":8:8:8:20|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":39:7:39:15|Removing redundant assignment.
+Post processing for work.lcdcontdata00.lcdcontdata0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":8:7:8:16|Synthesizing work.lcdsalto00.lcdsalto0.
+Post processing for work.lcdsalto00.lcdsalto0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContSalto00.vhd":8:8:8:21|Synthesizing work.lsalcontdata00.lsalcontdata0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContSalto00.vhd":37:7:37:16|Removing redundant assignment.
+Post processing for work.lsalcontdata00.lsalcontdata0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd":7:7:7:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":9:7:9:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":9:7:9:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":36:8:36:16|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":39:7:39:15|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":32:6:32:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":40:6:40:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":48:6:48:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":56:6:56:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":80:6:80:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":88:6:88:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.toplcd00.toplcd0
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":24:2:24:3|Register bit outcontcc(5) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":24:2:24:3|Pruning register bit 5 of outcontcc(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":27:4:27:5|Removing register 'rsc' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":27:4:27:5|Removing register 'rwc' because it is only assigned 0 or its original value.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":27:4:27:5|Register bit outCommandc(6) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":27:4:27:5|Pruning register bit 6 of outCommandc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd":57:2:57:3|Register bit outWordd(7) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd":57:2:57:3|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Removing register 'rss' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Removing register 'rws' because it is only assigned 0 or its original value.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Register bit outCommands(1) is always 0.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Register bit outCommands(2) is always 0.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Register bit outCommands(4) is always 0.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Register bit outCommands(6) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Pruning register bit 6 of outCommands(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Pruning register bit 4 of outCommands(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Pruning register bits 2 to 1 of outCommands(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Removing register 'RWcd' because it is only assigned 0 or its original value.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Register bit RScd is always 1.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Register bit outFlagcd is always 1.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Register bit outcontcd(5) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Pruning register bit 5 of outcontcd(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd":42:2:42:3|Register bit outWordd(7) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd":42:2:42:3|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdmux01.vhd":9:2:9:7|Input resetm is unused.
+@W: CL158 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":18:2:18:10|Inout outFlagd0 is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 13 03:35:14 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 13 03:35:14 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 13 03:35:14 2019
+
+###########################################################]

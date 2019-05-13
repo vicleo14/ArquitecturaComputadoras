@@ -1,0 +1,1056 @@
+
+synpwrap -msg -prj "lcd01_lcd01_synplify.tcl" -log "lcd01_lcd01.srf"
+Copyright (C) 1992-2017 Lattice Semiconductor Corporation. All rights reserved.
+Lattice Diamond Version 3.10.0.111.2
+    <postMsg mid="2011000" type="Info"    dynamic="0" navigation="0"  />
+
+==contents of lcd01_lcd01.srf
+#Build: Synplify Pro (R) M-2017.03L-SP1-1, Build 086R, Aug  4 2017
+#install: C:\lscc\diamond\3.10_x64\synpbase
+#OS: Windows 7 6.1
+#Hostname: VICTOR-PC
+
+# Mon May 13 03:35:13 2019
+
+#Implementation: lcd01
+
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":10:7:10:14|Top entity is set to toplcd00.
+File C:\lscc\diamond\3.10_x64\synpbase\lib\cpld\lattice.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\osc00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\packagediv00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdmux00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContData01.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdmux01.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContSalto00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\packagelcd00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\topdiv00.vhdl changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd changed - recompiling
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd changed - recompiling
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":10:7:10:14|Synthesizing work.toplcd00.toplcd0.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":41:7:41:11|Signal sdata is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":43:7:43:11|Signal srwcd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":43:13:43:17|Signal srscd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":43:19:43:23|Signal sencd is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdmux01.vhd":7:7:7:14|Synthesizing work.lcdmux01.lcdmux1.
+Post processing for work.lcdmux01.lcdmux1
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdmux00.vhd":7:7:7:14|Synthesizing work.lcdmux00.lcdmux0.
+Post processing for work.lcdmux00.lcdmux0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd":7:7:7:15|Synthesizing work.lcddata01.lcddata1.
+Post processing for work.lcddata01.lcddata1
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":8:8:8:20|Synthesizing work.lcdcontdata00.lcdcontdata0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":39:7:39:15|Removing redundant assignment.
+Post processing for work.lcdcontdata00.lcdcontdata0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":8:7:8:16|Synthesizing work.lcdsalto00.lcdsalto0.
+Post processing for work.lcdsalto00.lcdsalto0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContSalto00.vhd":8:8:8:21|Synthesizing work.lsalcontdata00.lsalcontdata0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContSalto00.vhd":37:7:37:16|Removing redundant assignment.
+Post processing for work.lsalcontdata00.lsalcontdata0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd":7:7:7:15|Synthesizing work.lcddata00.lcddata0.
+Post processing for work.lcddata00.lcddata0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":9:7:9:17|Synthesizing work.lcdconfig00.lcdconfig0.
+Post processing for work.lcdconfig00.lcdconfig0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":9:7:9:21|Synthesizing work.lcdcontconfig00.lcdcontconfig0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":36:8:36:16|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":39:7:39:15|Removing redundant assignment.
+Post processing for work.lcdcontconfig00.lcdcontconfig0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\topdiv00.vhdl":7:7:7:14|Synthesizing work.topdiv00.topdiv0.
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":9:7:9:11|Synthesizing work.div00.div0.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":32:6:32:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":40:6:40:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":48:6:48:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":56:6:56:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":64:6:64:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":72:6:72:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":80:6:80:11|Removing redundant assignment.
+@N: CD364 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl":88:6:88:11|Removing redundant assignment.
+Post processing for work.div00.div0
+@N: CD630 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.osc00.osc0
+Post processing for work.topdiv00.topdiv0
+Post processing for work.toplcd00.toplcd0
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":24:2:24:3|Register bit outcontcc(5) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd":24:2:24:3|Pruning register bit 5 of outcontcc(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":27:4:27:5|Removing register 'rsc' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":27:4:27:5|Removing register 'rwc' because it is only assigned 0 or its original value.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":27:4:27:5|Register bit outCommandc(6) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd":27:4:27:5|Pruning register bit 6 of outCommandc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd":57:2:57:3|Register bit outWordd(7) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd":57:2:57:3|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Removing register 'rss' because it is only assigned 0 or its original value.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Removing register 'rws' because it is only assigned 0 or its original value.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Register bit outCommands(1) is always 0.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Register bit outCommands(2) is always 0.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Register bit outCommands(4) is always 0.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Register bit outCommands(6) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Pruning register bit 6 of outCommands(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Pruning register bit 4 of outCommands(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd":25:2:25:3|Pruning register bits 2 to 1 of outCommands(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Removing register 'RWcd' because it is only assigned 0 or its original value.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Register bit RScd is always 1.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Register bit outFlagcd is always 1.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Register bit outcontcd(5) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd":29:2:29:3|Pruning register bit 5 of outcontcd(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd":42:2:42:3|Register bit outWordd(7) is always 0.
+@W: CL260 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd":42:2:42:3|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdmux01.vhd":9:2:9:7|Input resetm is unused.
+@W: CL158 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":18:2:18:10|Inout outFlagd0 is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 80MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 13 03:35:14 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 13 03:35:14 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 13 03:35:14 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\synwork\lcd01_lcd01_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon May 13 03:35:16 2019
+
+###########################################################]
+Pre-mapping Report
+
+# Mon May 13 03:35:16 2019
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\lcd01_lcd01_scck.rpt 
+Printing clock  summary report in "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\lcd01_lcd01_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 115MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: BN132 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd":25:2:25:3|Removing sequential instance LC10.outCommands_1[7] because it is equivalent to instance LC10.outCommands_1[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd":25:2:25:3|Removing sequential instance LC10.outCommands_1[5] because it is equivalent to instance LC10.outCommands_1[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd":25:2:25:3|Removing sequential instance LC10.outCommands_1[3] because it is equivalent to instance LC10.outCommands_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BN362 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontdata00.vhd":29:2:29:3|Removing sequential instance outFlagReadycd (in view: work.lcdContData00_0(lcdcontdata0)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=26  set on top level netlist toplcd00
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+
+Clock Summary
+******************
+
+          Start                            Requested     Requested     Clock                                           Clock                   Clock
+Level     Clock                            Frequency     Period        Type                                            Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       osc00|osc_int_inferred_clock     2.1 MHz       480.769       inferred                                        Inferred_clkgroup_0     22   
+1 .         div00|outdiv_derived_clock     2.1 MHz       480.769       derived (from osc00|osc_int_inferred_clock)     Inferred_clkgroup_0     52   
+====================================================================================================================================================
+
+@W: MT529 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\div00.vhdl":24:2:24:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including LC00.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 142MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon May 13 03:35:17 2019
+
+###########################################################]
+Map & Optimize Report
+
+# Mon May 13 03:35:17 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: FA239 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcddata00.vhd":63:16:63:23|ROM outWordd_2[6:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcddata00.vhd":63:16:63:23|ROM outWordd_2[6:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcddata00.vhd":63:16:63:23|Found ROM .delname. (in view: work.lcdData00(lcddata0)) with 32 words by 7 bits.
+@W: FA239 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcddata01.vhd":48:16:48:23|ROM outWordd_2[6:0] (in view: work.lcdData01(lcddata1)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcddata01.vhd":48:16:48:23|Found ROM .delname. (in view: work.lcdData01(lcddata1)) with 32 words by 7 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 142MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 142MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 141MB peak: 142MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 142MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 142MB peak: 143MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 142MB peak: 143MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 156MB peak: 158MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		   468.85ns		 182 /        74
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 156MB peak: 158MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontconfig00.vhd":24:2:24:3|Boundary register LC01.outcontcc_1_4_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontconfig00.vhd":24:2:24:3|Boundary register LC01.outcontcc_1_3_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontconfig00.vhd":24:2:24:3|Boundary register LC01.outcontcc_1_2_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontconfig00.vhd":24:2:24:3|Boundary register LC01.outcontcc_1_1_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontconfig00.vhd":24:2:24:3|Boundary register LC01.outcontcc_1_0_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontdata00.vhd":29:2:29:3|Boundary register LC03.outcontcd_1_4_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontdata00.vhd":29:2:29:3|Boundary register LC03.outcontcd_1_3_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontdata00.vhd":29:2:29:3|Boundary register LC03.outcontcd_1_2_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontdata00.vhd":29:2:29:3|Boundary register LC03.outcontcd_1_1_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontdata00.vhd":29:2:29:3|Boundary register LC03.outcontcd_1_0_.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdcontsalto00.vhd":26:2:26:3|Boundary register LC09.outFlagReadysal.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdcontconfig00.vhd":24:2:24:3|Boundary register LC01.outFlagcc.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcdconfig00.vhd":27:4:27:5|Boundary register LC02.outFlagC.fb (in view: work.toplcd00(toplcd0)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 156MB peak: 158MB)
+
+@N: MT611 :|Automatically generated clock div00|outdiv_derived_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 74 clock pin(s) of sequential element(s)
+0 instances converted, 74 sequential instances remain driven by gated/generated clocks
+
+=================================================================================================== Gated/Generated Clocks ===================================================================================================
+Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance      Explanation                                                                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       LC00.OS00.OSCInst0     OSCH                   74         LC00.OS01.outdiv     Gating structure creates improper gating logic. See the Gated Clocks description in the user guide for conversion requirements
+==============================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 123MB peak: 158MB)
+
+Writing Analyst data base D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\synwork\lcd01_lcd01_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:02s; Memory used current: 156MB peak: 158MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\lcd01_lcd01.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 160MB peak: 162MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 160MB peak: 162MB)
+
+@W: MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object "n:LC00.OS00.osc_int"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon May 13 03:35:20 2019
+#
+
+
+Top view:               toplcd00
+Requested Frequency:    2.1 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 468.588
+
+                                 Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock                   Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock     2.1 MHz       82.1 MHz      480.769       12.181        468.588     inferred     Inferred_clkgroup_0
+=====================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                      |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                      Ending                        |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------
+osc00|osc_int_inferred_clock  osc00|osc_int_inferred_clock  |  480.769     468.588  |  No paths    -      |  No paths    -      |  No paths    -    
+====================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: osc00|osc_int_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                       Starting                                                          Arrival            
+Instance               Reference                        Type        Pin     Net          Time        Slack  
+                       Clock                                                                                
+------------------------------------------------------------------------------------------------------------
+LC00.OS01.sdiv[8]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[8]      1.108       468.588
+LC00.OS01.sdiv[9]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[9]      1.108       468.588
+LC00.OS01.sdiv[10]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[10]     1.108       468.588
+LC00.OS01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[11]     1.108       468.588
+LC00.OS01.sdiv[0]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[0]      1.044       468.612
+LC00.OS01.sdiv[1]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[1]      1.044       468.612
+LC00.OS01.sdiv[2]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[2]      1.044       468.612
+LC00.OS01.sdiv[3]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[3]      1.044       468.612
+LC00.OS01.sdiv[4]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[4]      1.044       468.612
+LC00.OS01.sdiv[5]      osc00|osc_int_inferred_clock     FD1S3IX     Q       sdiv[5]      1.044       468.612
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                              Required            
+Instance               Reference                        Type        Pin     Net              Time         Slack  
+                       Clock                                                                                     
+-----------------------------------------------------------------------------------------------------------------
+LC00.OS01.sdiv[19]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[20]     480.664      468.588
+LC00.OS01.sdiv[20]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[21]     480.664      468.588
+LC00.OS01.sdiv[17]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[18]     480.664      468.731
+LC00.OS01.sdiv[18]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[19]     480.664      468.731
+LC00.OS01.sdiv[15]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[16]     480.664      468.874
+LC00.OS01.sdiv[16]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[17]     480.664      468.874
+LC00.OS01.sdiv[13]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[14]     480.664      469.017
+LC00.OS01.sdiv[14]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[15]     480.664      469.017
+LC00.OS01.sdiv[11]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[12]     480.664      469.159
+LC00.OS01.sdiv[12]     osc00|osc_int_inferred_clock     FD1S3IX     D       un1_sdiv[13]     480.664      469.159
+=================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      480.769
+    - Setup time:                            0.106
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         480.664
+
+    - Propagation time:                      12.075
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     468.588
+
+    Number of logic level(s):                17
+    Starting point:                          LC00.OS01.sdiv[8] / Q
+    Ending point:                            LC00.OS01.sdiv[20] / D
+    The start point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+    The end   point is clocked by            osc00|osc_int_inferred_clock [rising] on pin CK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+LC00.OS01.sdiv[8]                       FD1S3IX      Q        Out     1.108     1.108       -         
+sdiv[8]                                 Net          -        -       -         -           3         
+LC00.OS01.pdiv\.sdiv50lto11_i_a2_9      ORCALUT4     A        In      0.000     1.108       -         
+LC00.OS01.pdiv\.sdiv50lto11_i_a2_9      ORCALUT4     Z        Out     1.153     2.261       -         
+N_18_9                                  Net          -        -       -         -           3         
+LC00.OS01.pdiv\.sdiv15lto18_i_a2_17     ORCALUT4     A        In      0.000     2.261       -         
+LC00.OS01.pdiv\.sdiv15lto18_i_a2_17     ORCALUT4     Z        Out     1.193     3.453       -         
+N_3_18                                  Net          -        -       -         -           4         
+LC00.OS01.outdiv_0_sqmuxa_2_RNO         ORCALUT4     B        In      0.000     3.453       -         
+LC00.OS01.outdiv_0_sqmuxa_2_RNO         ORCALUT4     Z        Out     1.017     4.470       -         
+sdiv22lt20                              Net          -        -       -         -           1         
+LC00.OS01.outdiv_0_sqmuxa_2             ORCALUT4     A        In      0.000     4.470       -         
+LC00.OS01.outdiv_0_sqmuxa_2             ORCALUT4     Z        Out     1.017     5.487       -         
+outdiv_0_sqmuxa_2                       Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv69_4                  ORCALUT4     A        In      0.000     5.487       -         
+LC00.OS01.un1_sdiv69_4                  ORCALUT4     Z        Out     1.193     6.680       -         
+un1_sdiv69_4                            Net          -        -       -         -           4         
+LC00.OS01.un1_sdiv69_i                  ORCALUT4     A        In      0.000     6.680       -         
+LC00.OS01.un1_sdiv69_i                  ORCALUT4     Z        Out     1.017     7.697       -         
+un1_sdiv69_i                            Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_0_0              CCU2D        B0       In      0.000     7.697       -         
+LC00.OS01.un1_sdiv_cry_0_0              CCU2D        COUT     Out     1.544     9.241       -         
+un1_sdiv_cry_0                          Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_1_0              CCU2D        CIN      In      0.000     9.241       -         
+LC00.OS01.un1_sdiv_cry_1_0              CCU2D        COUT     Out     0.143     9.384       -         
+un1_sdiv_cry_2                          Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_3_0              CCU2D        CIN      In      0.000     9.384       -         
+LC00.OS01.un1_sdiv_cry_3_0              CCU2D        COUT     Out     0.143     9.527       -         
+un1_sdiv_cry_4                          Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_5_0              CCU2D        CIN      In      0.000     9.527       -         
+LC00.OS01.un1_sdiv_cry_5_0              CCU2D        COUT     Out     0.143     9.669       -         
+un1_sdiv_cry_6                          Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_7_0              CCU2D        CIN      In      0.000     9.669       -         
+LC00.OS01.un1_sdiv_cry_7_0              CCU2D        COUT     Out     0.143     9.812       -         
+un1_sdiv_cry_8                          Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_9_0              CCU2D        CIN      In      0.000     9.812       -         
+LC00.OS01.un1_sdiv_cry_9_0              CCU2D        COUT     Out     0.143     9.955       -         
+un1_sdiv_cry_10                         Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_11_0             CCU2D        CIN      In      0.000     9.955       -         
+LC00.OS01.un1_sdiv_cry_11_0             CCU2D        COUT     Out     0.143     10.098      -         
+un1_sdiv_cry_12                         Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_13_0             CCU2D        CIN      In      0.000     10.098      -         
+LC00.OS01.un1_sdiv_cry_13_0             CCU2D        COUT     Out     0.143     10.241      -         
+un1_sdiv_cry_14                         Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_15_0             CCU2D        CIN      In      0.000     10.241      -         
+LC00.OS01.un1_sdiv_cry_15_0             CCU2D        COUT     Out     0.143     10.383      -         
+un1_sdiv_cry_16                         Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_17_0             CCU2D        CIN      In      0.000     10.383      -         
+LC00.OS01.un1_sdiv_cry_17_0             CCU2D        COUT     Out     0.143     10.526      -         
+un1_sdiv_cry_18                         Net          -        -       -         -           1         
+LC00.OS01.un1_sdiv_cry_19_0             CCU2D        CIN      In      0.000     10.526      -         
+LC00.OS01.un1_sdiv_cry_19_0             CCU2D        S1       Out     1.549     12.075      -         
+un1_sdiv[21]                            Net          -        -       -         -           1         
+LC00.OS01.sdiv[20]                      FD1S3IX      D        In      0.000     12.075      -         
+======================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 160MB peak: 162MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 160MB peak: 162MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lcmxo2_7000he-5
+
+Register bits: 74 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       46
+
+
+Details:
+CCU2D:          11
+FD1P3AX:        24
+FD1P3IX:        24
+FD1S3AX:        4
+FD1S3IX:        22
+GSR:            1
+IB:             6
+INV:            2
+OB:             40
+ORCALUT4:       180
+OSCH:           1
+PUR:            1
+VHI:            13
+VLO:            13
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:03s; Memory used current: 32MB peak: 162MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:03s cputime
+# Mon May 13 03:35:20 2019
+
+###########################################################]
+
+
+Synthesis exit by 0.
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01" -path "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01"   "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01/lcd01_lcd01.edi" "lcd01_lcd01.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to lcd01_lcd01.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data"  -p "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01" -p "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01"  "lcd01_lcd01.ngo" "lcd01_lcd01.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'lcd01_lcd01.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="LC00/OS00/OSCInst0_SEDSTDBY" arg2="LC00/OS00/OSCInst0_SEDSTDBY"  />
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="outFlagd0" arg2="outFlagd0"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="2"  />
+
+Design Results:
+    341 blocks expanded
+Complete the first expansion.
+Writing 'lcd01_lcd01.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+map -a "MachXO2" -p LCMXO2-7000HE -t TQFP144 -s 5 -oc Commercial   "lcd01_lcd01.ngd" -o "lcd01_lcd01_map.ncd" -pr "lcd01_lcd01.prf" -mp "lcd01_lcd01.mrp" -lpf "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01/lcd01_lcd01_synplify.lpf" -lpf "D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf" -c 0            
+map:  version Diamond (64-bit) 3.10.0.111.2
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+   Process the file: lcd01_lcd01.ngd
+   Picdevice="LCMXO2-7000HE"
+
+   Pictype="TQFP144"
+
+   Picspeed=5
+
+   Remove unused logic
+
+   Do not produce over sized NCDs.
+
+Part used: LCMXO2-7000HETQFP144, Performance used: 5.
+
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf(42): In &quot;LOCATE COMP &quot;outRW0&quot; SITE &quot;93&quot; ;&quot;: " arg1="LOC" arg2="93" arg3="D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf" arg4="42"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf(43): In &quot;LOCATE COMP &quot;outRS0&quot; SITE &quot;95&quot; ;&quot;: " arg1="LOC" arg2="95" arg3="D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf" arg4="43"  />
+    <postMsg mid="1100683" type="Warning" dynamic="3" navigation="2" arg0="D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf(44): In &quot;LOCATE COMP &quot;outEN0&quot; SITE &quot;96&quot; ;&quot;: " arg1="LOC" arg2="96" arg3="D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf" arg4="44"  />
+    <postMsg mid="1104062" type="Warning" dynamic="2" navigation="0" arg0="" arg1="3 semantic errors"  />
+Loading device for application map from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+
+Running general design DRC...
+
+Removing unused logic...
+
+Optimizing...
+
+    <postMsg mid="51001046" type="Warning" dynamic="1" navigation="0" arg0="outFlagd0"  />
+
+
+
+Design Summary:
+   Number of registers:     74 out of  7209 (1%)
+      PFU registers:           74 out of  6864 (1%)
+      PIO registers:            0 out of   345 (0%)
+   Number of SLICEs:       103 out of  3432 (3%)
+      SLICEs as Logic/ROM:    103 out of  3432 (3%)
+      SLICEs as RAM:            0 out of  2574 (0%)
+      SLICEs as Carry:         11 out of  3432 (0%)
+   Number of LUT4s:        206 out of  6864 (3%)
+      Number used as logic LUTs:        184
+      Number used as distributed RAM:     0
+      Number used as ripple logic:       22
+      Number used as shift registers:     0
+   Number of PIO sites used: 46 + 4(JTAG) out of 115 (43%)
+   Number of block RAMs:  0 out of 26 (0%)
+   Number of GSRs:  0 out of 1 (0%)
+   EFB used :       No
+   JTAG used :      No
+   Readback used :  No
+   Oscillator used :  Yes
+   Startup used :   No
+   POR :            On
+   Bandgap :        On
+   Number of Power Controller:  0 out of 1 (0%)
+   Number of Dynamic Bank Controller (BCINRD):  0 out of 6 (0%)
+   Number of Dynamic Bank Controller (BCLVDSO):  0 out of 1 (0%)
+   Number of DCCA:  0 out of 8 (0%)
+   Number of DCMA:  0 out of 2 (0%)
+   Number of PLLs:  0 out of 2 (0%)
+   Number of DQSDLLs:  0 out of 2 (0%)
+   Number of CLKDIVC:  0 out of 4 (0%)
+   Number of ECLKSYNCA:  0 out of 4 (0%)
+   Number of ECLKBRIDGECS:  0 out of 2 (0%)
+   Notes:-
+      1. Total number of LUT4s = (Number of logic LUT4s) + 2*(Number of distributed RAMs) + 2*(Number of ripple logic)
+      2. Number of logic LUT4s does not include count of distributed RAM and ripple logic.
+   Number of clocks:  1
+     Net LC00.sclk_0: 48 loads, 48 rising, 0 falling (Driver: LC00/OS00/OSCInst0 )
+   Number of Clock Enables:  9
+     Net ENc_cnv: 11 loads, 11 LSLICEs
+     Net un1_outdiv_0_sqmuxa_1_2_RNINGUR: 11 loads, 11 LSLICEs
+     Net LC06/ENcd_RNO_0: 1 loads, 1 LSLICEs
+     Net LC10/outCommands_1_RNO[0]: 1 loads, 1 LSLICEs
+     Net LC09/outFlagsal_RNO: 1 loads, 1 LSLICEs
+     Net LC03/ENcd_0_sqmuxa_i_a2_RNIJSTE1_0: 1 loads, 1 LSLICEs
+     Net LC02/outCommandc_7_sqmuxa_0_0_o2_RNILI3L1: 4 loads, 4 LSLICEs
+     Net LC02/outCommandc_1_RNO[7]: 1 loads, 1 LSLICEs
+     Net LC01/outFlagcc_RNO_0: 1 loads, 1 LSLICEs
+   Number of LSRs:  6
+     Net outFlagReadysal_RNIBLU31: 3 loads, 3 LSLICEs
+     Net G_23: 6 loads, 6 LSLICEs
+     Net outFlagReadycd_RNIC6JC1: 4 loads, 4 LSLICEs
+     Net G_28: 4 loads, 4 LSLICEs
+     Net LC02/outCommandc_1_RNO_0[7]: 1 loads, 1 LSLICEs
+     Net LC00/OS01/un1_sdiv69_RNIRR1T: 11 loads, 11 LSLICEs
+   Number of nets driven by tri-state buffers:  0
+   Top 10 highest fanout non-clock nets:
+     Net reset0_c: 28 loads
+     Net un1_outdiv_0_sqmuxa_1_2_RNINGUR: 27 loads
+     Net outFlagc0_c: 22 loads
+     Net scont2[3]: 17 loads
+     Net outContcc0_c[3]: 16 loads
+     Net outContcc0_c[2]: 15 loads
+     Net outContcd0_c[1]: 15 loads
+     Net outContcd0_c[0]: 14 loads
+     Net ready_c[0]: 14 loads
+     Net scont2[0]: 14 loads
+    <postMsg mid="51001104" type="Warning" dynamic="1" navigation="0" arg0="120"  />
+    <postMsg mid="1103737" type="Warning" dynamic="3" navigation="0" arg0="" arg1="LOCATE COMP &quot;clk00&quot; SITE &quot;120&quot; ;&#xA;" arg2="LOCATE COMP &quot;ready[1]&quot; SITE &quot;120&quot; ;&#xA;"  />
+    <postMsg mid="51001230" type="Warning" dynamic="1" navigation="0" arg0="D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf"  />
+ 
+
+   Number of warnings:  8
+   Number of errors:    0
+
+
+
+Total CPU Time: 0 secs  
+Total REAL Time: 0 secs  
+Peak Memory Usage: 57 MB
+
+Dumping design to file lcd01_lcd01_map.ncd.
+
+mpartrce -p "lcd01_lcd01.p2t" -f "lcd01_lcd01.p3t" -tf "lcd01_lcd01.pt" "lcd01_lcd01_map.ncd" "lcd01_lcd01.ncd"
+
+---- MParTrce Tool ----
+Removing old design directory at request of -rem command line option to this program.
+Running par. Please wait . . .
+
+Lattice Place and Route Report for Design "lcd01_lcd01_map.ncd"
+Mon May 13 03:35:23 2019
+
+PAR: Place And Route Diamond (64-bit) 3.10.0.111.2.
+Command Line: par -w -l 5 -i 6 -t 1 -c 0 -e 0 -gui -msgset D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/promote.xml -exp parUseNBR=1:parCDP=0:parCDR=0:parPathBased=OFF lcd01_lcd01_map.ncd lcd01_lcd01.dir/5_1.ncd lcd01_lcd01.prf
+Preference file: lcd01_lcd01.prf.
+Placement level-cost: 5-1.
+Routing Iterations: 6
+
+Loading design for application par from file lcd01_lcd01_map.ncd.
+Design name: toplcd00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application par from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+License checked out.
+
+
+Ignore Preference Error(s):  True
+Device utilization summary:
+
+   PIO (prelim)   46+4(JTAG)/336     15% used
+                  46+4(JTAG)/115     43% bonded
+
+   SLICE            103/3432          3% used
+
+   OSC                1/1           100% used
+
+
+Number of Signals: 296
+Number of Connections: 893
+
+Pin Constraint Summary:
+   45 out of 46 pins locked (97% locked).
+
+The following 1 signal is selected to use the primary clock routing resources:
+    LC00.sclk_0 (driver: LC00/OS00/OSCInst0, clk load #: 48)
+
+
+The following 3 signals are selected to use the secondary clock routing resources:
+    ENc_cnv (driver: SLICE_25, clk load #: 0, sr load #: 0, ce load #: 11)
+    un1_outdiv_0_sqmuxa_1_2_RNINGUR (driver: SLICE_66, clk load #: 0, sr load #: 0, ce load #: 11)
+    LC00/OS01/un1_sdiv69_RNIRR1T (driver: LC00/OS01/SLICE_74, clk load #: 0, sr load #: 11, ce load #: 0)
+
+No signal is selected as Global Set/Reset.
+.
+Starting Placer Phase 0.
+..........
+Finished Placer Phase 0.  REAL time: 0 secs 
+
+Starting Placer Phase 1.
+...................
+Placer score = 67330.
+Finished Placer Phase 1.  REAL time: 6 secs 
+
+Starting Placer Phase 2.
+.
+Placer score =  67034
+Finished Placer Phase 2.  REAL time: 6 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clock Resources:
+  CLK_PIN    : 0 out of 8 (0%)
+  PLL        : 0 out of 2 (0%)
+  DCM        : 0 out of 2 (0%)
+  DCC        : 0 out of 8 (0%)
+
+Quadrants All (TL, TR, BL, BR) - Global Clocks:
+  PRIMARY "LC00.sclk_0" from OSC on comp "LC00/OS00/OSCInst0" on site "OSC", clk load = 48
+  SECONDARY "ENc_cnv" from F1 on comp "SLICE_25" on site "R14C20B", clk load = 0, ce load = 11, sr load = 0
+  SECONDARY "un1_outdiv_0_sqmuxa_1_2_RNINGUR" from F1 on comp "SLICE_66" on site "R14C20D", clk load = 0, ce load = 11, sr load = 0
+  SECONDARY "LC00/OS01/un1_sdiv69_RNIRR1T" from F0 on comp "LC00/OS01/SLICE_74" on site "R14C20A", clk load = 0, ce load = 0, sr load = 11
+
+  PRIMARY  : 1 out of 8 (12%)
+  SECONDARY: 3 out of 8 (37%)
+
+Edge Clocks:
+  No edge clock selected.
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   46 + 4(JTAG) out of 336 (14.9%) PIO sites used.
+   46 + 4(JTAG) out of 115 (43.5%) bonded PIO sites used.
+   Number of PIO comps: 46; differential: 0.
+   Number of Vref pins used: 0.
+
+I/O Bank Usage Summary:
++----------+----------------+------------+-----------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref |
++----------+----------------+------------+-----------+
+| 0        | 16 / 28 ( 57%) | 2.5V       | -         |
+| 1        | 11 / 29 ( 37%) | 2.5V       | -         |
+| 2        | 7 / 29 ( 24%)  | 2.5V       | -         |
+| 3        | 0 / 9 (  0%)   | -          | -         |
+| 4        | 6 / 10 ( 60%)  | 2.5V       | -         |
+| 5        | 6 / 10 ( 60%)  | 2.5V       | -         |
++----------+----------------+------------+-----------+
+
+Total placer CPU time: 6 secs 
+
+Dumping design to file lcd01_lcd01.dir/5_1.ncd.
+
+0 connections routed; 893 unrouted.
+Starting router resource preassignment
+
+Completed router resource preassignment. Real time: 10 secs 
+
+Start NBR router at 03:35:33 05/13/19
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in TRCE report. You should always run TRCE to verify  
+      your design.                                               
+*****************************************************************
+
+Start NBR special constraint process at 03:35:33 05/13/19
+
+Start NBR section for initial routing at 03:35:33 05/13/19
+Level 4, iteration 1
+23(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 465.884ns/0.000ns; real time: 10 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 0 (0.00%)
+
+Start NBR section for normal routing at 03:35:33 05/13/19
+Level 4, iteration 1
+15(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 465.543ns/0.000ns; real time: 10 secs 
+Level 4, iteration 2
+4(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 465.973ns/0.000ns; real time: 11 secs 
+Level 4, iteration 3
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 465.973ns/0.000ns; real time: 11 secs 
+Level 4, iteration 4
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 465.973ns/0.000ns; real time: 11 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 03:35:34 05/13/19
+
+Start NBR section for re-routing at 03:35:34 05/13/19
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 465.973ns/0.000ns; real time: 11 secs 
+
+Start NBR section for post-routing at 03:35:34 05/13/19
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 465.973ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only and all PAR_ADJs are ignored.
+
+
+
+Total CPU time 11 secs 
+Total REAL time: 12 secs 
+Completely routed.
+End of route.  893 routed (100.00%); 0 unrouted.
+
+Hold time timing score: 0, hold timing errors: 0
+
+Timing score: 0 
+
+Dumping design to file lcd01_lcd01.dir/5_1.ncd.
+
+
+PAR_SUMMARY::Run status = Success
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 465.973
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 0.379
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  time to completion: 11 secs 
+Total REAL time to completion: 12 secs 
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Exiting par with exit code 0
+Exiting mpartrce with exit code 0
+
+bitgen -f "lcd01_lcd01.t2b" -w "lcd01_lcd01.ncd" -jedec "lcd01_lcd01.prf"
+
+
+BITGEN: Bitstream Generator Diamond (64-bit) 3.10.0.111.2
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+
+
+Loading design for application Bitgen from file lcd01_lcd01.ncd.
+Design name: toplcd00
+NCD version: 3.3
+Vendor:      LATTICE
+Device:      LCMXO2-7000HE
+Package:     TQFP144
+Performance: 5
+Loading device for application Bitgen from file 'xo2c7000.nph' in environment: C:/lscc/diamond/3.10_x64/ispfpga.
+Package Status:                     Final          Version 1.39.
+Performance Hardware Data Status:   Final          Version 34.4.
+
+Running DRC.
+DRC detected 0 errors and 0 warnings.
+Reading Preference File from lcd01_lcd01.prf.
+
+Preference Summary:
++---------------------------------+---------------------------------+
+|  Preference                     |  Current Setting                |
++---------------------------------+---------------------------------+
+|                         RamCfg  |                        Reset**  |
++---------------------------------+---------------------------------+
+|                     MCCLK_FREQ  |                         2.08**  |
++---------------------------------+---------------------------------+
+|                  CONFIG_SECURE  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                          INBUF  |                           ON**  |
++---------------------------------+---------------------------------+
+|                      JTAG_PORT  |                       ENABLE**  |
++---------------------------------+---------------------------------+
+|                       SDM_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                 SLAVE_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                MASTER_SPI_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                       I2C_PORT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|        MUX_CONFIGURATION_PORTS  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  CONFIGURATION  |                          CFG**  |
++---------------------------------+---------------------------------+
+|                COMPRESS_CONFIG  |                           ON**  |
++---------------------------------+---------------------------------+
+|                        MY_ASSP  |                          OFF**  |
++---------------------------------+---------------------------------+
+|               ONE_TIME_PROGRAM  |                          OFF**  |
++---------------------------------+---------------------------------+
+|                 ENABLE_TRANSFR  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|                  SHAREDEBRINIT  |                      DISABLE**  |
++---------------------------------+---------------------------------+
+|            BACKGROUND_RECONFIG  |                          OFF**  |
++---------------------------------+---------------------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+
+Creating bit map...
+ 
+Bitstream Status: Final           Version 1.94.
+ 
+Saving bit stream in "lcd01_lcd01.jed".
+ 
+===========
+UFM Summary.
+===========
+UFM Size:        2046 Pages (128*2046 Bits).
+UFM Utilization: General Purpose Flash Memory.
+ 
+Available General Purpose Flash Memory: 2046 Pages (Page 0 to Page 2045).
+Initialized UFM Pages:                     0 Page.
+ 

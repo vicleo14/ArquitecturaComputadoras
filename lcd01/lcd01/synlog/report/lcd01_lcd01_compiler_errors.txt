@@ -1,0 +1,2 @@
+@E: CD326 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd":160:1:160:4|Port inenc2 of entity work.lcdmux01 is unconnected. If a port needs to remain unconnected, use the keyword open.
+

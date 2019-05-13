@@ -1,0 +1,114 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\synwork\\lcd01_lcd01_comp.srs|-top|toplcd00|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501913710
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501937008
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501913024
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493331104
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\div00.vhdl":1550611156
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\osc00.vhdl":1550532684
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\packagediv00.vhdl":1550611072
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\lcdContData00.vhd":1557736509
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\lcdData00.vhd":1557706673
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\lcdmux00.vhd":1554158491
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcdContData01.vhd":1557708364
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcdData01.vhd":1557708307
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcdmux01.vhd":1557734843
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcdContSalto00.vhd":1557734078
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcdSalto00.vhd":1557732104
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\packagelcd00.vhd":1557732170
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\topdiv00.vhdl":1550611552
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\lcdConfig00.vhd":1557706416
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\lcdContConfig00.vhd":1557390541
+#CUR:"D:\\Sexto_Semestre\\Arquitectura_Computadora\\projectMachXO2\\lcd01\\lcd01\\source\\toplcd00.vhd":1557735705
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
+1 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\div00.vhdl" vhdl
+2 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\osc00.vhdl" vhdl
+3 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\packagediv00.vhdl" vhdl
+4 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd" vhdl
+5 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd" vhdl
+6 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdmux00.vhd" vhdl
+7 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContData01.vhd" vhdl
+8 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd" vhdl
+9 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdmux01.vhd" vhdl
+10 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdContSalto00.vhd" vhdl
+11 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd" vhdl
+12 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\packagelcd00.vhd" vhdl
+13 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\topdiv00.vhdl" vhdl
+14 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd" vhdl
+15 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd" vhdl
+16 "D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 -1
+4 -1
+5 -1
+6 -1
+7 -1
+8 -1
+9 -1
+10 -1
+11 -1
+12 -1
+13 2 1 3 
+14 3 
+15 3 
+16 13 15 14 4 5 10 11 8 6 9 12 
+
+# Dependency Lists (Users Of)
+0 -1
+1 13 
+2 13 
+3 15 14 13 
+4 16 
+5 16 
+6 16 
+7 -1
+8 16 
+9 16 
+10 16 
+11 16 
+12 16 
+13 16 
+14 16 
+15 16 
+16 -1
+
+# Design Unit to File Association
+arch work div00 div0 1
+module work div00 1
+arch work osc00 osc0 2
+module work osc00 2
+arch work lcdcontdata00 lcdcontdata0 4
+module work lcdcontdata00 4
+arch work lcddata00 lcddata0 5
+module work lcddata00 5
+arch work lcdmux00 lcdmux0 6
+module work lcdmux00 6
+arch work lcdcontdata01 lcdcontdata0 7
+module work lcdcontdata01 7
+arch work lcddata01 lcddata1 8
+module work lcddata01 8
+arch work lcdmux01 lcdmux1 9
+module work lcdmux01 9
+arch work lsalcontdata00 lsalcontdata0 10
+module work lsalcontdata00 10
+arch work lcdsalto00 lcdsalto0 11
+module work lcdsalto00 11
+arch work topdiv00 topdiv0 13
+module work topdiv00 13
+arch work lcdconfig00 lcdconfig0 14
+module work lcdconfig00 14
+arch work lcdcontconfig00 lcdcontconfig0 15
+module work lcdcontconfig00 15
+arch work toplcd00 toplcd0 16
+module work toplcd00 16

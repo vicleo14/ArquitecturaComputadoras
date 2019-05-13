@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf(42): In &quot;LOCATE COMP &quot;outRW0&quot; SITE &quot;93&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>93</Dynamic>
+            <Navigation>D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf</Navigation>
+            <Navigation>42</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf(43): In &quot;LOCATE COMP &quot;outRS0&quot; SITE &quot;95&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>95</Dynamic>
+            <Navigation>D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf</Navigation>
+            <Navigation>43</Navigation>
+        </Message>
+        <Message>
+            <ID>1100683</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf(44): In &quot;LOCATE COMP &quot;outEN0&quot; SITE &quot;96&quot; ;&quot;: </Dynamic>
+            <Dynamic>LOC</Dynamic>
+            <Dynamic>96</Dynamic>
+            <Navigation>D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf</Navigation>
+            <Navigation>44</Navigation>
+        </Message>
+        <Message>
+            <ID>1104062</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>3 semantic errors</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001046</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>outFlagd0</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001104</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>120</Dynamic>
+        </Message>
+        <Message>
+            <ID>1103737</ID>
+            <Severity>Warning</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>LOCATE COMP &quot;clk00&quot; SITE &quot;120&quot; ;
+</Dynamic>
+            <Dynamic>LOCATE COMP &quot;ready[1]&quot; SITE &quot;120&quot; ;
+</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001230</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>D:/Sexto_Semestre/Arquitectura_Computadora/projectMachXO2/lcd01/lcd01.lpf</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>LC00/OS00/OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>LC00/OS00/OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>outFlagd0</Dynamic>
+            <Navigation>outFlagd0</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>2</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd&quot;:41:7:41:11|Signal sdata is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>41</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Signal sdata is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd&quot;:43:7:43:11|Signal srwcd is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Signal srwcd is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd&quot;:43:13:43:17|Signal srscd is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>13</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>Signal srscd is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd&quot;:43:19:43:23|Signal sencd is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>43</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>Signal sencd is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD276 :&quot;C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd&quot;:2297:8:2297:15|Map for port sedstdby of component osch not found</Dynamic>
+            <Navigation>CD276</Navigation>
+            <Navigation>C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>8</Navigation>
+            <Navigation>2297</Navigation>
+            <Navigation>15</Navigation>
+            <Navigation>Map for port sedstdby of component osch not found</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd&quot;:24:2:24:3|Pruning register bit 5 of outcontcc(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContConfig00.vhd</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 5 of outcontcc(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd&quot;:27:4:27:5|Removing register 'rsc' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing register 'rsc' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd&quot;:27:4:27:5|Removing register 'rwc' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing register 'rwc' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd&quot;:27:4:27:5|Pruning register bit 6 of outCommandc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdConfig00.vhd</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>27</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bit 6 of outCommandc(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd&quot;:57:2:57:3|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdData00.vhd</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>57</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd&quot;:25:2:25:3|Removing register 'rss' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing register 'rss' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd&quot;:25:2:25:3|Removing register 'rws' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing register 'rws' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd&quot;:25:2:25:3|Pruning register bit 6 of outCommands(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 6 of outCommands(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd&quot;:25:2:25:3|Pruning register bit 4 of outCommands(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 4 of outCommands(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd&quot;:25:2:25:3|Pruning register bits 2 to 1 of outCommands(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdSalto00.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bits 2 to 1 of outCommands(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL138 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd&quot;:29:2:29:3|Removing register 'RWcd' because it is only assigned 0 or its original value.</Dynamic>
+            <Navigation>CL138</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing register 'RWcd' because it is only assigned 0 or its original value.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd&quot;:29:2:29:3|Pruning register bit 5 of outcontcd(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\lcdContData00.vhd</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 5 of outcontcd(5 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL260 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd&quot;:42:2:42:3|Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Dynamic>
+            <Navigation>CL260</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcdData01.vhd</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>42</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Pruning register bit 7 of outWordd(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL158 :&quot;D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd&quot;:18:2:18:10|Inout outFlagd0 is unused</Dynamic>
+            <Navigation>CL158</Navigation>
+            <Navigation>D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\lcd01\lcd01\source\toplcd00.vhd</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>18</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Inout outFlagd0 is unused</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd&quot;:25:2:25:3|Removing sequential instance LC10.outCommands_1[7] because it is equivalent to instance LC10.outCommands_1[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing sequential instance LC10.outCommands_1[7] because it is equivalent to instance LC10.outCommands_1[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd&quot;:25:2:25:3|Removing sequential instance LC10.outCommands_1[5] because it is equivalent to instance LC10.outCommands_1[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing sequential instance LC10.outCommands_1[5] because it is equivalent to instance LC10.outCommands_1[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN132 :&quot;d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd&quot;:25:2:25:3|Removing sequential instance LC10.outCommands_1[3] because it is equivalent to instance LC10.outCommands_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Dynamic>
+            <Navigation>BN132</Navigation>
+            <Navigation>d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcdsalto00.vhd</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>25</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Removing sequential instance LC10.outCommands_1[3] because it is equivalent to instance LC10.outCommands_1[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\div00.vhdl&quot;:24:2:24:3|Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including LC00.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\div00.vhdl</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>24</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock which controls 22 sequential elements including LC00.OS01.sdiv[20:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcddata00.vhd&quot;:63:16:63:23|ROM outWordd_2[6:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcddata00.vhd</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>ROM outWordd_2[6:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcddata00.vhd&quot;:63:16:63:23|ROM outWordd_2[6:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcd01\source\lcddata00.vhd</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>63</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>ROM outWordd_2[6:0] (in view: work.lcdData00(lcddata0)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FA239 :&quot;d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcddata01.vhd&quot;:48:16:48:23|ROM outWordd_2[6:0] (in view: work.lcdData01(lcddata1)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Dynamic>
+            <Navigation>FA239</Navigation>
+            <Navigation>d:\sexto_semestre\arquitectura_computadora\projectmachxo2\lcd01\lcddata01.vhd</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>48</Navigation>
+            <Navigation>23</Navigation>
+            <Navigation>ROM outWordd_2[6:0] (in view: work.lcdData01(lcddata1)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:LC00.OS00.osc_int&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock osc00|osc_int_inferred_clock with period 480.77ns. Please declare a user-defined clock on object &quot;n:LC00.OS00.osc_int&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>
