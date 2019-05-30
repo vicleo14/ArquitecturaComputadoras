@@ -1,0 +1,64 @@
+NOTE Copyright (C), 1992-2010, Lattice Semiconductor Corporation *
+NOTE All Rights Reserved *
+NOTE DATE CREATED: Thu May 30 16:27:20 2019 *
+NOTE DESIGN NAME: topalu00 *
+NOTE DEVICE NAME: LCMXO2-7000HE-5TQFP144 *
+NOTE PIN ASSIGNMENTS *
+NOTE PINS outFlagInst0 : 132 : inout *
+NOTE PINS outLED : 62 : out *
+NOTE PINS clk00 : 63 : out *
+NOTE PINS enable0 : 38 : in *
+NOTE PINS outRSum[7] : 12 : out *
+NOTE PINS outRSum[6] : 24 : out *
+NOTE PINS outRSum[5] : 10 : out *
+NOTE PINS outRSum[4] : 9 : out *
+NOTE PINS outRSum[3] : 6 : out *
+NOTE PINS outRSum[2] : 5 : out *
+NOTE PINS outRSum[1] : 4 : out *
+NOTE PINS outRSum[0] : 3 : out *
+NOTE PINS outFlagac0 : 11 : out *
+NOTE PINS outalu0[15] : 120 : out *
+NOTE PINS outalu0[14] : 119 : out *
+NOTE PINS outalu0[13] : 122 : out *
+NOTE PINS outalu0[12] : 121 : out *
+NOTE PINS outalu0[11] : 126 : out *
+NOTE PINS outalu0[10] : 125 : out *
+NOTE PINS outalu0[9] : 128 : out *
+NOTE PINS outalu0[8] : 127 : out *
+NOTE PINS outalu0[7] : 110 : out *
+NOTE PINS outalu0[6] : 109 : out *
+NOTE PINS outalu0[5] : 112 : out *
+NOTE PINS outalu0[4] : 111 : out *
+NOTE PINS outalu0[3] : 114 : out *
+NOTE PINS outalu0[2] : 113 : out *
+NOTE PINS outalu0[1] : 117 : out *
+NOTE PINS outalu0[0] : 115 : out *
+NOTE PINS inregRT0[7] : 91 : in *
+NOTE PINS inregRT0[6] : 92 : in *
+NOTE PINS inregRT0[5] : 85 : in *
+NOTE PINS inregRT0[4] : 86 : in *
+NOTE PINS inregRT0[3] : 57 : in *
+NOTE PINS inregRT0[2] : 59 : in *
+NOTE PINS inregRT0[1] : 58 : in *
+NOTE PINS inregRT0[0] : 60 : in *
+NOTE PINS inregRS0[7] : 47 : in *
+NOTE PINS inregRS0[6] : 49 : in *
+NOTE PINS inregRS0[5] : 48 : in *
+NOTE PINS inregRS0[4] : 50 : in *
+NOTE PINS inregRS0[3] : 52 : in *
+NOTE PINS inregRS0[2] : 55 : in *
+NOTE PINS inregRS0[1] : 54 : in *
+NOTE PINS inregRS0[0] : 56 : in *
+NOTE PINS funct0[5] : 39 : in *
+NOTE PINS funct0[4] : 41 : in *
+NOTE PINS funct0[3] : 42 : in *
+NOTE PINS funct0[2] : 44 : in *
+NOTE PINS funct0[1] : 43 : in *
+NOTE PINS funct0[0] : 45 : in *
+NOTE PINS cdiv00[4] : 67 : in *
+NOTE PINS cdiv00[3] : 68 : in *
+NOTE PINS cdiv00[2] : 70 : in *
+NOTE PINS cdiv00[1] : 69 : in *
+NOTE PINS cdiv00[0] : 71 : in *
+NOTE CONFIGURATION MODE: NONE *
+NOTE COMPRESSION: on *

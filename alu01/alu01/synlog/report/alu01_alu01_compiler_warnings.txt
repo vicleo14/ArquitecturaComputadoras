@@ -1,0 +1,5 @@
+@W: CD796 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\alu01\alu01\source\mult8bit00.vhdl":18:27:18:30|Bit 7 of signal ss01 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\alu01\alu01\source\mult8bit00.vhdl":18:77:18:80|Bit 7 of signal sc06 is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD276 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2297:8:2297:15|Map for port sedstdby of component osch not found
+@W: CL138 :"D:\Sexto_Semestre\Arquitectura_Computadora\projectMachXO2\alu01\adda00.vhd":34:2:34:3|Removing register 'outSL' because it is only assigned 0 or its original value.
+
